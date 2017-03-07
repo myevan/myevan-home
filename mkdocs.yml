@@ -1,0 +1,8 @@
+site_name: myevan.net
+theme: material
+markdown_extensions:
+    - codehilite
+pages:
+    - "home": index.md
+    - "tutorials": 
+        - "myevan site": myevan_site_tutorial.md
