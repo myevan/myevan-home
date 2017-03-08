@@ -1,5 +1,16 @@
 # 언리얼 엔진 빌드 따라하기
 
+## 비주얼 스튜디오 VisualStudio
+
+### 사용자 정의 설치 CustomInstallation
+
+* Visual C++
+* Visual C#
+* Android SDK
+* Git for Windows
+
+GitHub Extension for VisualStudio 는 [.gitignore 버그](github_ext_for_vs_ue4_gitignore_issue.md)가 있음
+
 ## 깃허브 연동 GitHubConnecting
 
 * [GitHub 계정 생성](https://github.com/)

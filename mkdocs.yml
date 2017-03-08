@@ -14,3 +14,6 @@ pages:
             - "git hosting": windows_git_hosting_digest.md
         - "ue4":
             - "setup": ue4_setup_digest.md
+    - "issues":
+        - "ue4":
+            - "vs gitignore": github_ext_for_vs_ue4_gitignore_issue.md
