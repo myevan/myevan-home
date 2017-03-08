@@ -92,12 +92,14 @@ git 을 사용해서 정적 사이트 배포가 가능합니다.
 
 ## 커스텀 도메인 Custom Domain
 
-<https://help.github.com/articles/using-a-custom-domain-with-github-pages/>
+<https://help.github.com/articles/about-supported-custom-domains/#apex-domains>
 
-* 도메인을 구입합니다. <https://www.cafe24.com/?controller=domain_search>
+* [도메인을 구입](https://www.cafe24.com/?controller=domain_search)합니다. 
 * GitHub 페이지 설정에서 커스텀 도메인을 입력합니다. <https://github.com/myevan/myevan.github.io/settings>
-* 도메인 관리 페이지에서 A 레코드를 추가합니다
-    * myevan.net: 192.30.252.153
-    * myevan.net: 192.30.252.154
-    * www.myevan.net: 192.30.252.153
-    * www.myevan.net: 192.30.252.154
+* [도메인을 등록](https://kr.dnsever.com/)합니다. 
+    * [CNAME 레코드](https://help.github.com/articles/setting-up-a-www-subdomain/) 설정
+        * www.myevan.net: myevan.github.io
+        * www.myevan.net: myevan.github.io
+    * [ANAME 레코드](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-an-alias-or-aname-record-with-your-dns-provider) [설정](http://blog.kr.dnsever.com/?p=332)
+        * myevan.net: myevan.github.io
+        * myevan.net: myevan.github.io
