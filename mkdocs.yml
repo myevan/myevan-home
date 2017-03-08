@@ -11,6 +11,6 @@ pages:
         - "ue4 build": ue4_build_tutorial.md
     - "digests":
         - "windows":
-            - "git hosting": windows_git_hosting.md
+            - "git hosting": windows_git_hosting_digest.md
         - "ue4":
             - "setup": ue4_setup_digest.md
