@@ -83,3 +83,7 @@ GitHub 원격 저장소를 로컬 저장소로 복제합니다.
     (myevan_home)$ mkdocs build
 
 git 을 사용해서 정적 사이트 배포가 가능합니다.
+
+    :::bash
+    (myevan_home)$ (cd site;git commit -a)
+    (myevan_home)$ (cd site;git push)
