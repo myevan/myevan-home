@@ -1,18 +1,18 @@
 # 언리얼 엔진 빌드 따라하기
 
-## GitHub 계정 연동 Connecting
+## 깃허브 연동 GitHubConnecting
 
 * [GitHub 계정 생성](https://github.com/)
 * [에픽 게임즈 계정 생성](https://docs.unrealengine.com/latest/KOR/GettingStarted/Installation/index.html#bookmark1>)
 * 에픽 게임즈 개인 > [개인 정보](https://www.unrealengine.com/dashboard/settings) > GITHUB 계정 이름 (이메일 말고)에 GitHub 계정 입력 
 * GitHub 로그인 후 [에픽 게임즈 언리얼 저장소](https://github.com/epicgames/unrealengine/) 이동
 
-## GitHub 저장소 클론 Cloning
+## 깃허브 클론 GitHubCloning
 
     :::bat
     git clone https://github.com/EpicGames/UnrealEngine C:\UnrealEngine
 
-## GitHub 저장소 미러 Mirroring
+## 깃허브 미러 GitHubMirroring
 
 GitHub 에서 저장소 클론하는 것은 시간이 오래걸리므로 미러 저장소를 만들어 둡니다
 
