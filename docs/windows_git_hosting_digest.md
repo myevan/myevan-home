@@ -1,4 +1,4 @@
-# 윈도우 Git 호스팅
+# 윈도우 Git 호스팅 요약
 
 <http://aspiringcraftsman.com/2012/02/20/hosting-a-git-repository-in-windows/>
 
