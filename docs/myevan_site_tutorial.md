@@ -8,7 +8,7 @@
 # 준비
 
     :::bash
-    $ mkvirtualenv myevan_site
+    $ mkvirtualenv myevan_home
     (myevan_site)$ pip install mkdocs
     (myevan_site)$ pip install pygments
     (myevan_site)$ pip install pymdown-extensions
