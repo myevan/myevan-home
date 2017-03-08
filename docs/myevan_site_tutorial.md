@@ -91,3 +91,5 @@ git 을 사용해서 정적 사이트 배포가 가능합니다.
     :::bash
     (myevan_site)$ (cd site;git commit -a)
     (myevan_site)$ (cd site;git push)
+
+배포된 사이트는 <https://myevan.github.io> 에서 확인 가능합니다. 
