@@ -1,17 +1,13 @@
 # 빗자루넷 따라하기
 
-## 요구 사항 Requirements
-
-### 운영체제 OS
+## 운영체제 지원 OS Support
 
 * macOS Sierra 10.12.1 
 * Windows 10 Professional + Windows Subsystem for Linux
 
-## 개발환경 Development Environments
+## 개발 환경 Development Environments
 
-* python-2.7 + virtualenvwrapper
-
-## 가상 환경 Virtual Environments
+python-2.7 + virtualenvwrapper
 
     :::bash
     $ mkvirtualenv myevan_site
