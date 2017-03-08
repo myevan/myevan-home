@@ -8,7 +8,7 @@ pages:
     - "home": index.md
     - "tutorials": 
         - "myevan site": myevan_site_tutorial.md
-        - "unreal engine": unreal_engine_tutorial.md
+        - "ue4 build": ue4_build_tutorial.md
     - "digests":
         - "windows":
             - "git hosting": windows_git_hosting.md
