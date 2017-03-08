@@ -1,13 +1,17 @@
 # 빗자루넷 따라하기
 
-## 작업 환경
+## 요구 사항 Requirements
 
-* OS
-    * macOS Sierra 10.12.1 
-    * Windows 10 Professional + Windows Subsystem for Linux
+### 운영체제 OS
+
+* macOS Sierra 10.12.1 
+* Windows 10 Professional + Windows Subsystem for Linux
+
+## 개발환경 Development Environments
+
 * python-2.7 + virtualenvwrapper
 
-## 가상 환경
+## 가상 환경 Virtual Environments
 
     :::bash
     $ mkvirtualenv myevan_site
@@ -16,7 +20,7 @@
     (myevan_site)$ pip install pymdown-extensions
     (myevan_site)$ pip install mkdocs-material
 
-## 새로 만들기
+## 새로운 사이트 New Site
 
 GitHub 원격 저장소를 로컬 저장소로 복제합니다.
 
@@ -29,7 +33,7 @@ GitHub 원격 저장소를 로컬 저장소로 복제합니다.
     (myevan_site)$ cd myevan
     (myevan_site)$ mkdocs new .
 
-## 미리 보기
+## 사이트 미리 보기 Preview Site
 
 로컬 서버를 통해 실제 출력되는 모습을 확인할 수 있습니다.
 
@@ -38,12 +42,12 @@ GitHub 원격 저장소를 로컬 저장소로 복제합니다.
 
 <http://localhost:8000> 접속하면 미리 보기가 가능합니다. 변경 사항도 바로 적용됩니다. 
 
-## 설정
+## 사이트 설정 Site Configuration
 
     :::bash
     (myevan_site)$ vim mkdocs.yml
 
-### 예제
+### 예제 Example
 
     :::yaml
     site_name: "myevan.net"
@@ -55,7 +59,7 @@ GitHub 원격 저장소를 로컬 저장소로 복제합니다.
         - "tutorials": 
             - "myevan site": myevan_site_tutorial.md
 
-### 속성
+### 속성 Properties
 
 * site_name: 사이트 이름 
 * theme: 테마
@@ -64,7 +68,7 @@ GitHub 원격 저장소를 로컬 저장소로 복제합니다.
 * pages: 페이지 이름과 마크다운 파일 맵핑, 계층 구조 지원
 
 
-## 배포
+## 배포 Deployment
 
 페이지 저장소를 site 디렉토리에 클론 받습니다.
 

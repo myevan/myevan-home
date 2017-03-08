@@ -2,6 +2,8 @@ site_name: myevan.net
 theme: material
 markdown_extensions:
     - codehilite
+    - toc:
+        permalink: True
 pages:
     - "home": index.md
     - "tutorials": 
