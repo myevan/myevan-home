@@ -1,8 +1,6 @@
 # 언리얼 엔진 빌드 따라하기
 
-## 비주얼 스튜디오 VisualStudio
-
-### 사용자 정의 설치 CustomInstallation
+## 비주얼 스튜디오 사용자 정의 설치 VisualStudioCustomInstallation
 
 * Visual C++
 * Visual C#
@@ -62,7 +60,20 @@ C:\Repositories\git\UnrealEngine\config
 [언리얼 엔진 셋업](ue4_setup_digest.md) 후 프로젝트 파일을 생성한다.
 
     :::bat
-    cd C:\Repositories\git\UnrealEngine
+    cd C:\UnrealEngine
     Setup.bat 
     GenerateProjectFiles.bat
 
+## 비주얼 스튜디오 셋업 VisualStudioSetup
+
+<https://docs.unrealengine.com/latest/KOR/Programming/Development/VisualStudioSetup/index.html>
+
+
+## 비주얼 스튜디오 빌드 VisualStudioBuilding
+
+<https://docs.unrealengine.com/latest/KOR/Programming/Development/BuildingUnrealEngine/index.html>
+
+
+## 로컬 빌드 LocalBuild
+
+<https://docs.unrealengine.com/latest/KOR/Programming/Development/InstalledBuildReference/index.html>
