@@ -12,3 +12,5 @@ pages:
     - "digests":
         - "windows":
             - "git hosting": windows_git_hosting.md
+        - "ue4":
+            - "setup": ue4_setup_digest.md
