@@ -95,7 +95,7 @@ git 을 사용해서 정적 사이트 배포가 가능합니다.
 <https://help.github.com/articles/about-supported-custom-domains/#apex-domains>
 
 * [도메인을 구입](https://www.cafe24.com/?controller=domain_search)합니다. 
-* GitHub 페이지 설정에서 커스텀 도메인을 입력합니다. <https://github.com/myevan/myevan.github.io/settings>
+* [GitHub 페이지 설정](https://github.com/myevan/myevan.github.io/settings) 에서 *Custom domain*을 입력하고 *Save* 버튼을 누릅니다.
 * [도메인을 등록](https://kr.dnsever.com/)합니다. 
     * [CNAME 레코드](https://help.github.com/articles/setting-up-a-www-subdomain/) 설정
         * www.myevan.net: myevan.github.io
