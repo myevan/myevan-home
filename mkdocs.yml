@@ -8,15 +8,17 @@ pages:
     - "home": index.md
     - "tutorials": 
         - "myevan site": myevan_site_tutorial.md
-        - "ue4 build": ue4_build_tutorial.md
+        - "ue4 build": 
+            - "windows": windows_ue4_build_tutorial.md
     - "digests":
-        - "windows":
+        - "git":
             - "git hosting": windows_git_hosting_digest.md
         - "ue4":
-            - "setup": ue4_setup_digest.md
-            - "vs settings": ue4_vs_settings_digest.md
+            - "setup": 
+                - "script": ue4_setup_script_digest.md
+                - "vs": windows_ue4_setup_vs_digest.md
         - "vs2015":
-            - "setup": vs2015_setup_digest.md
+            - "download": vs2015_download_digest.md
         - "vscode":
             - "plugins": 
                 - "vim": vscode_plugin_vim_digest.md

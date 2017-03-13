@@ -1,8 +1,8 @@
-# 언리얼 엔진 비주얼 스튜디오 세팅 요약
+# 언리얼 엔진 비주얼 스튜디오 설정 요약
 
 <https://docs.unrealengine.com/latest/KOR/Programming/Development/VisualStudioSetup/index.html>
 
-## 통합 환경 설정 IDE Settings
+## 설정 Settings
 
 ### 솔류션 구성 폭 넓히기 ExtendWidthOfSolutionConfigurations 
 

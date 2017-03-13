@@ -1,4 +1,4 @@
-# 언리얼 엔진 셋업 요약
+# 언리얼 엔진 셋업 스크립트 분석
 
 ## 기능
 
@@ -13,13 +13,3 @@
     * 불필요한 플랫폼 바이너리를 받지 않으므로 셋업 시간 및 로컬 용량 단축됨
     * 하지만 4.15.0 기준 구현은 그냥 제외 경로 필터인지 Win64 플랫폼만 받기 위해  Win32, IOS 등을 제외하면 빌드에 실패함
 
-
-## 실행
-
-### 윈도우
-
-<https://github.com/EpicGames/UnrealEngine/blob/release/Setup.bat> 
-
-    :::bat
-    cd C:\UnrealEngine
-    Setup.bat 
