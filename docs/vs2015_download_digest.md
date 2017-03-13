@@ -1,4 +1,4 @@
-# 비주얼 스튜디오 2015 셋업 요약
+# 비주얼 스튜디오 2015 다운로드 요약
 
 ## 다운로드
 
@@ -14,10 +14,3 @@
 * **언어 선택**에서 한국어를 영어로 변경 후 **잠시 대기** 
 * [Microsoft Visual Studio 2015 Language Pack](https://www.microsoft.com/en-US/download/details.aspx?id=48157)  페이지로 바뀜
 * **다운로드** 버튼 클릭 
-
-### 설정 익스포트-임포트
-
-* Tools > Import And Export Settings Wizard 메뉴 클릭
-    * Export selected environment settings: 익스포트
-    * Import selected environment settings: 임포트
-* 설정 경로: `%USERPROFILE%\Documents\Visual Studio 2015\Settings`

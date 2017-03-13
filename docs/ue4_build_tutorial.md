@@ -1,13 +1,13 @@
 # 언리얼 엔진 빌드 따라하기
 
-## 비주얼 스튜디오 사용자 정의 설치 InstallCustomVisualStudio
+## 비주얼 스튜디오 설치 InstallVisualStudio
+
+[Visual Studio 2015 를 다운로드](vs2015_download_digest.md)받은 후 사용자 정의 설치를 진행합니다.
 
 * Visual C++
 * Visual C#
 * Android SDK
 * Git for Windows
-
-GitHub Extension for VisualStudio 는 [.gitignore 버그](github_ext_for_vs_ue4_gitignore_issue.md)가 있음
 
 ## 깃허브 연동 ConnectGitHub
 
@@ -55,22 +55,23 @@ C:\Repositories\git\UnrealEngine\config
     :::bat
     git clone git://localhost/UnrealEngine C:\UnrealEngine
 
-## 윈도우 프로젝트 생성 GenerateWindowsProject
+## 프로젝트 준비 PrepareProject
 
-[언리얼 엔진 셋업](ue4_setup_digest.md) 후 프로젝트 파일을 생성한다.
+* [언리얼 비주얼 스튜디오 셋업](ue4_vs_settings_digest.md) 
+* [언리얼 엔진 셋업](ue4_setup_digest.md)
+
+## 프로젝트 빌드 BuildProject
+
+<https://docs.unrealengine.com/latest/KOR/Programming/Development/BuildingUnrealEngine/index.html>
+
+비주얼 스튜디오 프로젝트를 생성합니다.
 
     :::bat
     cd C:\UnrealEngine
-    Setup.bat 
     GenerateProjectFiles.bat
 
-## 비주얼 스튜디오 셋업 VisualStudioSetup
+UE4.sln 을 더블 클릭합니다.
 
-<https://docs.unrealengine.com/latest/KOR/Programming/Development/VisualStudioSetup/index.html>
-
-## 비주얼 스튜디오 빌드 VisualStudioBuild
-
-<https://docs.unrealengine.com/latest/KOR/Programming/Development/BuildingUnrealEngine/index.html>
 
 
 ## 로컬 빌드 LocalBuild
