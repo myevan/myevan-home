@@ -4,7 +4,7 @@
 
 ## 2017-03
 
-* [언리얼 엔진 프로세서 카운트 멀티플라이어 붆석](ue4_processor_count_multiplier_analysis.md)
+* [언리얼 엔진 프로세서 카운트 멀티플라이어 분석](ue4_processor_count_multiplier_analysis.md)
 * [언리얼 엔진 컴파일 속도 향상 요약](ue4_boost_compile_times_digest.md)
 * [윈도우 언리얼 엔진 비주얼 스튜디오 설정 요약](windows_ue4_setup_vs_digest.md)
 * [비주얼 스튜디오 코드 플러그인 vim 요약](vscode_plugin_vim_digest.md)
