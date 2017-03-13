@@ -15,8 +15,8 @@ pages:
             - "git hosting": windows_git_hosting_digest.md
         - "ue4":
             - "setup": 
-                - "script": ue4_setup_script_digest.md
                 - "vs": windows_ue4_setup_vs_digest.md
+                - "boost compile time": ue4_boost_compile_times_digest.md
         - "vs2015":
             - "download": vs2015_download_digest.md
         - "vscode":
@@ -25,3 +25,8 @@ pages:
     - "issues":
         - "ue4":
             - "vs gitignore": github_ext_for_vs_ue4_gitignore_issue.md
+    - "analysis":
+        - "ue4":
+            - "setup script": ue4_setup_script_analysis.md
+            - "processor count multiplier": ue4_processor_count_multiplier_analysis.md
+

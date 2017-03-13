@@ -58,7 +58,7 @@ C:\Repositories\git\UnrealEngine\config
 ## 프로젝트 준비 PrepareProject
 
 * [언리얼 비주얼 스튜디오 셋업](windows_ue4_setup_vs_digest.md) 
-* [언리얼 엔진 셋업 스크립트](ue4_setup_script_digest.md) 실행
+* [언리얼 엔진 셋업 스크립트](ue4_setup_script_analysis.md) 실행
 
     :::bat
     cd C:\UnrealEngine
