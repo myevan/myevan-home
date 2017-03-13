@@ -16,6 +16,9 @@ pages:
             - "setup": ue4_setup_digest.md
         - "vs2015":
             - "setup": vs2015_setup_digest.md
+        - "vscode":
+            - "plugins": 
+                - "vim": vscode_plugin_vim_digest.md
     - "issues":
         - "ue4":
             - "vs gitignore": github_ext_for_vs_ue4_gitignore_issue.md
