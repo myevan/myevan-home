@@ -103,3 +103,5 @@ git 을 사용해서 정적 사이트 배포가 가능합니다.
     * [ANAME 레코드](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-an-alias-or-aname-record-with-your-dns-provider) [설정](http://blog.kr.dnsever.com/?p=332)
         * myevan.net: myevan.github.io
         * myevan.net: myevan.github.io
+* site 저장소에 [CNAME 파일](https://github.com/myevan/myevan.github.io/blob/master/CNAME)이 생성됩니다.
+* mkdocs build 시마다 site 디렉토리가 리셋되어 CNAME 파일이 삭제되는 것을 막기 위해 CNAME 파일을 [docs 디렉토리](https://github.com/myevan/myevan/tree/master/docs)로 복사합니다
