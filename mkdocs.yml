@@ -28,5 +28,8 @@ pages:
     - "analysis":
         - "ue4":
             - "setup script": ue4_setup_script_analysis.md
-            - "processor count multiplier": ue4_processor_count_multiplier_analysis.md
+            - "build tool":
+                - "processor count multiplier": ue4_processor_count_multiplier_analysis.md
+                - "faster without unity": ue4_faster_without_unity_analysis.md
+                - "min files using precompiled header": ue4_min_files_using_precompiled_header_analysis.md
 
