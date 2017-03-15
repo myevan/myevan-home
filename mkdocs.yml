@@ -10,9 +10,13 @@ pages:
         - "myevan site": myevan_site_tutorial.md
         - "ue4 build": 
             - "windows": windows_ue4_build_tutorial.md
+        - "git swarm": 
+            - "installation": gitswarm_installation_ubuntu_tutorial.md
     - "digests":
         - "git":
             - "git hosting": windows_git_hosting_digest.md
+            - "git swarm": 
+                - "requirements": gitswarm_requirements_digest.md
         - "ue4":
             - "setup": 
                 - "vs": windows_ue4_setup_vs_digest.md
@@ -22,6 +26,9 @@ pages:
         - "vscode":
             - "plugins": 
                 - "vim": vscode_plugin_vim_digest.md
+        - "vmware":
+            - "static ip": vmware_fusion_8_static_ip_digest.md
+            - "port forwarding": vmware_fusion_8_port_forwarding_digest.md
     - "issues":
         - "ue4":
             - "vs gitignore": github_ext_for_vs_ue4_gitignore_issue.md
