@@ -2,7 +2,7 @@
 
 게임 제작 기술 블로그입니다
 
-* [퍼포스 윈도우 서브버전 마이그레이션](perforce_windows_subversion_migration.md)
+* [퍼포스 윈도우 서브버전 마이그레이션 요약](perforce_windows_svn_migration_digest.md)
 * [깃 스웜 헬릭스 미러 리포지터리 삭제 이슈](gitswarm_helix_mirror_repository_delete_issue.md)
 * [깃 스웜 관리 요약](gitswarm_administration_digest.md)
 * [VM 웨어 퓨전 8 포트 포워딩 설정 요약](vmware_fusion_8_port_forwarding_digest.md)
