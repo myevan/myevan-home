@@ -50,14 +50,14 @@ C:\Repositories\git\UnrealEngine\config
     cd C:\Repositories\git\UnrealEngine
     git remote update
 
-미러 저장소를 사용해 [Git 호스팅](windows_git_hosting_digest.md)을 구축하면 git 프로토콜을 사용해 네트워크 접근이 가능합니다.
+미러 저장소를 사용해 [Git 호스팅](git_windows_hosting_digest.md)을 구축하면 git 프로토콜을 사용해 네트워크 접근이 가능합니다.
 
     :::bat
     git clone git://localhost/UnrealEngine C:\UnrealEngine
 
 ## 프로젝트 준비 PrepareProject
 
-* [언리얼 비주얼 스튜디오 셋업](windows_ue4_setup_vs_digest.md) 
+* [언리얼 비주얼 스튜디오 셋업](ue4_windows_vs_setup_digest.md) 
 * [언리얼 엔진 셋업 스크립트](ue4_setup_script_analysis.md) 실행
 
     :::bat

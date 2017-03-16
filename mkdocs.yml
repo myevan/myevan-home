@@ -8,31 +8,28 @@ pages:
     - "home": index.md
     - "tutorials": 
         - "myevan site": myevan_site_tutorial.md
-        - "ue4 build": 
-            - "windows": windows_ue4_build_tutorial.md
+        - "ue4 build": ue4_windows_build_tutorial.md
         - "git swarm": 
             - "installation": gitswarm_installation_ubuntu_tutorial.md
     - "digests":
         - "git":
-            - "git hosting": windows_git_hosting_digest.md
+            - "git hosting": git_windows_hosting_digest.md
             - "git swarm": 
                 - "requirements": gitswarm_requirements_digest.md
                 - "administration": gitswarm_administration_digest.md
         - "ue4":
-            - "setup": 
-                - "vs": windows_ue4_setup_vs_digest.md
-                - "boost compile time": ue4_boost_compile_times_digest.md
+            - "vs setup": ue4_windows_vs_setup_digest.md
+            - "boost compile time": ue4_boost_compile_times_digest.md
         - "vs2015":
             - "download": vs2015_download_digest.md
         - "vscode":
-            - "plugins": 
-                - "vim": vscode_plugin_vim_digest.md
+            - "vim plugin": vscode_plugin_vim_digest.md
         - "vmware":
             - "static ip": vmware_fusion_8_static_ip_digest.md
             - "port forwarding": vmware_fusion_8_port_forwarding_digest.md
     - "issues":
         - "ue4":
-            - "vs gitignore": github_ext_for_vs_ue4_gitignore_issue.md
+            - "vs ext": ue4_windows_vs_git_ext_gitignore_issue.md
         - "gitswarm":
             - "helix mirror": gitswarm_helix_mirror_repository_delete_issue.md
     - "analysis":
