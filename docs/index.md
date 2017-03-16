@@ -2,8 +2,8 @@
 
 게임 제작 기술 블로그입니다
 
-## 2017-03
-
+* [깃 스웜 헬릭스 미러 리포지터리 삭제 이슈](gitswarm_helix_mirror_repository_delete_issue.md)
+* [깃 스웜 관리 요약](gitswarm_administration_digest.md)
 * [VM 웨어 퓨전 8 포트 포워딩 설정 요약](vmware_fusion_8_port_forwarding_digest.md)
 * [VM 웨어 퓨전 8 정적 IP 설정 요약](vmware_fusion_8_static_ip_digest.md)
 * [우분투 깃 스웜 설치 따라하기](gitswarm_installation_ubuntu_tutorial.md)
