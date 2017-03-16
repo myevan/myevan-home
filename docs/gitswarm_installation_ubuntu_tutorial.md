@@ -56,7 +56,7 @@ external_url "http://gitswarm.example.com:8888"
 [타임 존](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)을 설정합니다. 
 
 ```ruby
-gitlab_rails['time_zone'] = 'KR'
+gitlab_rails['time_zone'] = 'Asia/Seoul'
 ```
 
 SSH 22 포트를 사용할 수 없다면 다른 포트를 지정할 수 있습니다.
