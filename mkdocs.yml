@@ -12,11 +12,14 @@ pages:
         - "git swarm": 
             - "installation": gitswarm_installation_ubuntu_tutorial.md
     - "digests":
-        - "git":
-            - "git hosting": git_windows_hosting_digest.md
-            - "git swarm": 
-                - "requirements": gitswarm_requirements_digest.md
-                - "administration": gitswarm_administration_digest.md
+        - "vcs":
+            - "git":
+                - "git hosting": git_windows_hosting_digest.md
+                - "git swarm": 
+                    - "requirements": gitswarm_requirements_digest.md
+                    - "administration": gitswarm_administration_digest.md
+            - "perforce":
+                - "svn migration": perforce_windows_svn_migration.md
         - "ue4":
             - "vs setup": ue4_windows_vs_setup_digest.md
             - "boost compile time": ue4_boost_compile_times_digest.md
