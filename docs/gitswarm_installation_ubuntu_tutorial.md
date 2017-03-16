@@ -72,6 +72,14 @@ unicorn['worker_timeout'] = 600
 unicorn['worker_processes'] = 5
 ```
 
+HTTP 를 통한 대용량 푸쉬를 지원하기 위해서는 nginx 설정 수정이 필요합니다.
+
+```ruby
+nginx['client_max_body_size']  = '0m'
+nginx['proxy_read_timeout']    = 1000
+nginx['proxy_connect_timeout'] = 1000
+```
+
 설정 파일을 저장한 다음 재설정을 실행합니다.
 
 ```bash
