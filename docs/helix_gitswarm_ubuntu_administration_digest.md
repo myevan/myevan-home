@@ -1,4 +1,4 @@
-# 깃 스웜 관리 GitSwarm Adiministration
+# 깃 스웜 우분투 관리 GitSwarm Ubuntu Adiministration
 
 ## 재시작 Restart
 

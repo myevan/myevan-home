@@ -1,8 +1,8 @@
-# 우분투 깃 스웜 설치 따라하기 GitSwarm Installation Ubuntu
+# 깃 스웜 우분투 설치 따라하기 GitSwarm Ubuntu Installation
 
 <https://www.perforce.com/perforce/doc.current/manuals/gitswarm/install/installation.html>
 
-[요구 사항](gitswarm_requirements_digest.md)을 확인합니다.
+[요구 사항](helix_gitswarm_requirements_digest.md)을 확인합니다.
 
 * 가상머신: OS X + VMWare Fusion 8
 * 코어: 4개

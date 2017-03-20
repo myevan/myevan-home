@@ -9,17 +9,18 @@ pages:
     - "tutorials": 
         - "myevan site": myevan_site_tutorial.md
         - "ue4 build": ue4_windows_build_tutorial.md
-        - "git swarm": 
-            - "installation": gitswarm_installation_ubuntu_tutorial.md
     - "digests":
         - "vcs":
             - "git":
                 - "git hosting": git_windows_hosting_digest.md
+            - "helix":
+                - "svn migration": helix_perforce_windows_svn_migration_digest.md
                 - "git swarm": 
-                    - "requirements": gitswarm_requirements_digest.md
-                    - "administration": gitswarm_administration_digest.md
-            - "perforce":
-                - "svn migration": perforce_windows_svn_migration_digest.md
+                    - "requirements": helix_gitswarm_requirements_digest.md
+                    - "installation": helix_gitswarm_ubuntu_installation_digest.md
+                    - "administration": helix_gitswarm_ubuntu_administration_digest.md
+                - "perforce daemon": helix_perforce_windows_daemon_digest.md
+                - "perforce service": helix_perforce_windows_service_digest.md
         - "ue4":
             - "vs setup": ue4_windows_vs_setup_digest.md
             - "boost compile time": ue4_boost_compile_times_digest.md
@@ -33,8 +34,8 @@ pages:
     - "issues":
         - "ue4":
             - "vs ext": ue4_windows_vs_git_ext_gitignore_issue.md
-        - "gitswarm":
-            - "helix mirror": gitswarm_helix_mirror_repository_delete_issue.md
+        - "helix":
+            - "gitswarm mirror": helix_gitswarm_ubuntu_mirror_repository_delete_issue.md
     - "analysis":
         - "ue4":
             - "setup script": ue4_setup_script_analysis.md

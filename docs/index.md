@@ -2,13 +2,13 @@
 
 게임 제작 기술 블로그입니다
 
-* [퍼포스 윈도우 서브버전 마이그레이션 요약](perforce_windows_svn_migration_digest.md)
-* [깃 스웜 헬릭스 미러 리포지터리 삭제 이슈](gitswarm_helix_mirror_repository_delete_issue.md)
-* [깃 스웜 관리 요약](gitswarm_administration_digest.md)
+* [퍼포스 윈도우 서브버전 마이그레이션 요약](helix_perforce_windows_svn_migration_digest.md)
+* [깃 스웜 헬릭스 미러 리포지터리 삭제 이슈](helix_gitswarm_ubuntu_mirror_repository_delete_issue.md)
+* [깃 스웜 관리 요약](helix_gitswarm_ubuntu_administration_digest.md)
 * [VM 웨어 퓨전 8 포트 포워딩 설정 요약](vmware_fusion_8_port_forwarding_digest.md)
 * [VM 웨어 퓨전 8 정적 IP 설정 요약](vmware_fusion_8_static_ip_digest.md)
-* [깃 스웜 우분투 설치 따라하기](gitswarm_installation_ubuntu_tutorial.md)
-* [깃 스웜 요구사항 요약](gitswarm_requirements_digest.md)
+* [깃 스웜 우분투 설치 요약](helix_gitswarm_ubuntu_installation_digest.md)
+* [깃 스웜 요구사항 요약](helix_gitswarm_requirements_digest.md)
 * [언리얼 엔진 프리컴파일드 헤더 사용 최소 파일 개수 옵션 분석](ue4_min_files_using_precompiled_header_analysis.md)
 * [언리얼 엔진 유니티 빌드 제외 옵션 분석](ue4_faster_without_unity_analysis.md)
 * [언리얼 엔진 프로세서 카운트 멀티플라이어 분석](ue4_processor_count_multiplier_analysis.md)
