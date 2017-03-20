@@ -9,6 +9,9 @@ pages:
     - "tutorials": 
         - "myevan site": myevan_site_tutorial.md
         - "ue4 build": ue4_windows_build_tutorial.md
+        - "hyper-v ubuntu":
+            - "installation": hyper_v_ubuntu_installation_tutorial.md
+            - "disk expanding": hyper_v_ubuntu_disk_expanding_tutorial.md
     - "digests":
         - "vcs":
             - "git":

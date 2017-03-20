@@ -2,6 +2,8 @@
 
 게임 제작 기술 블로그입니다
 
+* [하이퍼 V 우분투 디스크 확장 따라하기](hyper_v_ubuntu_disk_expanding_tutorial.md)
+* [하이퍼 V 우분투 설치 따라하기](hyper_v_ubuntu_installation_tutorial.md)
 * [퍼포스 윈도우 서브버전 마이그레이션 요약](helix_perforce_windows_svn_migration_digest.md)
 * [깃 스웜 헬릭스 미러 리포지터리 삭제 이슈](helix_gitswarm_ubuntu_mirror_repository_delete_issue.md)
 * [깃 스웜 관리 요약](helix_gitswarm_ubuntu_administration_digest.md)
