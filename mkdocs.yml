@@ -9,19 +9,22 @@ pages:
     - "tutorials": 
         - "myevan site": myevan_site_tutorial.md
         - "ue4 build": ue4_windows_build_tutorial.md
-        - "hyper-v ubuntu":
-            - "installation": hyper_v_ubuntu_installation_tutorial.md
-            - "disk expanding": hyper_v_ubuntu_disk_expanding_tutorial.md
+        - "hyper-v":
+            - "ubuntu":
+                - "installation": hyper_v_ubuntu_installation_tutorial.md
+                - "disk expanding": hyper_v_ubuntu_disk_expanding_tutorial.md
     - "digests":
         - "vcs":
             - "git":
                 - "git hosting": git_windows_hosting_digest.md
-            - "helix":
-                - "svn migration": helix_perforce_windows_svn_migration_digest.md
+                - "git lab": 
+                    - "installation": gitlab_ubuntu_installation_digest.md
                 - "git swarm": 
                     - "requirements": helix_gitswarm_requirements_digest.md
                     - "installation": helix_gitswarm_ubuntu_installation_digest.md
                     - "administration": helix_gitswarm_ubuntu_administration_digest.md
+            - "helix":
+                - "svn migration": helix_perforce_windows_svn_migration_digest.md
                 - "perforce daemon": helix_perforce_windows_daemon_digest.md
                 - "perforce service": helix_perforce_windows_service_digest.md
         - "ue4":
