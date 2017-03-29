@@ -2,6 +2,10 @@
 
 게임 제작 기술 블로그입니다
 
+* [우분투 IP 설정 따라하기](ubuntu_setup_ip_tutorial.md)
+* [파이썬 맥 가상 환경 랩퍼 요약](python_mac_venv_wrapper_digest.md)
+* [맥 루트 유저 활성화 요약](mac_root_enable_digest.md)
+* [깃랩 우분투 설치 요약](gitlab_ubuntu_installation_digest.md)
 * [하이퍼 V 우분투 디스크 확장 따라하기](hyper_v_ubuntu_disk_expanding_tutorial.md)
 * [하이퍼 V 우분투 설치 따라하기](hyper_v_ubuntu_installation_tutorial.md)
 * [퍼포스 윈도우 서브버전 마이그레이션 요약](helix_perforce_windows_svn_migration_digest.md)
