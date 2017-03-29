@@ -111,6 +111,8 @@ bash 나 putty 로 <ssh://192.168.137.100> 에 접속합니다.
 
 접속시 password 프롬프트가 늦게 표시된다면 네임 서버 주소를 확인합니다.
 
+#### IP
+
 ```bash
 $ sudo vim /etc/network/interfaces
 # This file describes the network interfaces available on your system
