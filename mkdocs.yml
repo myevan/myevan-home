@@ -13,6 +13,8 @@ pages:
             - "ubuntu":
                 - "installation": hyper_v_ubuntu_installation_tutorial.md
                 - "disk expanding": hyper_v_ubuntu_disk_expanding_tutorial.md
+        - "ubuntu":
+            - "ip": ubuntu_setup_ip_tutorial.md
     - "digests":
         - "vcs":
             - "git":
