@@ -16,6 +16,7 @@ pages:
     - "digests":
         - "vcs":
             - "git":
+                - "git bash prompt": git_bash_prompt_digest.md
                 - "git hosting": git_windows_hosting_digest.md
                 - "git lab": 
                     - "installation": gitlab_ubuntu_installation_digest.md
