@@ -39,6 +39,8 @@ pages:
             - "port forwarding": vmware_fusion_8_port_forwarding_digest.md
         - "mac":
             - "enable root": mac_root_enable_digest.md
+        - "python":
+            - "mac venv": python_mac_venv_wrapper_digest.md
     - "issues":
         - "ue4":
             - "vs ext": ue4_windows_vs_git_ext_gitignore_issue.md
