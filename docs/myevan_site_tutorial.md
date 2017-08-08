@@ -116,8 +116,9 @@ python-2.7 + virtualenvwrapper
 git 을 사용해서 정적 사이트 배포가 가능합니다.
 
     :::bat
-    (mkdocs)$ C:\GitHub\myevan> (cd site;git commit -a)
-    (mkdocs)$ C:\GitHub\myevan> (cd site;git push)
+    (mkdocs)$ C:\GitHub\myevan> cd site
+    (mkdocs)$ C:\GitHub\myevan> git commit -a
+    (mkdocs)$ C:\GitHub\myevan> git push
 
 배포된 사이트는 <https://myevan.github.io> 에서 확인 가능합니다. 
 
