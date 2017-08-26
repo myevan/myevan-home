@@ -2,6 +2,7 @@
 
 게임 제작 기술 블로그입니다
 
+* [pyenv 따라하기](pyenv_tutorial.md)
 * [우분투 IP 설정 따라하기](ubuntu_setup_ip_tutorial.md)
 * [파이썬 맥 가상 환경 랩퍼 요약](python_mac_venv_wrapper_digest.md)
 * [맥 루트 유저 활성화 요약](mac_root_enable_digest.md)

@@ -4,7 +4,7 @@
 
 ### Mac
 
-[Homebrew](./mac_homebrew_tutorial.md) 와 [Xcode 커맨드라인 도구](./mac_xcode_command_line_tutorial.md)가 필요합니다
+[Homebrew](mac_homebrew_tutorial.md) 와 [Xcode 커맨드라인 도구](mac_xcode_command_line_tutorial.md)가 필요합니다
 
 ```bash
 $ brew install pyenv
