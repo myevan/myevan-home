@@ -44,7 +44,8 @@ Setup.bat
     cd C:\UnrealEngine
     GenerateProjectFiles.bat
 
-UE4.sln 을 열어 **Development Editor** 를 빌드합니다.
+UE4.sln 을 열어 **Development** 를 빌드합니다.
+
 
 ## 에디터 실행 RunEditor
 
@@ -119,4 +120,16 @@ if exist %~dp0..\InstalledBuild.txt del %~dp0..\InstalledBuild.txt
 
 :finish
 pause
+```
+
+### 설치된 플랫폼 설정 InstalledPlatforms
+
+C++ 프로젝트를 생성하기 위해서는 설치된 플랫폼 설정을 추가해 주어야 합니다.
+
+`C:\EpicGames\UE_4.git\Engine\Config\BaseEngine.ini`
+
+```ini
+[InstalledPlatforms]
++InstalledPlatformConfigurations=(PlatformName="Win64", Configuration="DebugGame", PlatformType="Game", RequiredFile="Engine\Binaries\Win64\UE4Game.target", ProjectType="Any", bCanBeDisplayed=False)
++InstalledPlatformConfigurations=(PlatformName="Win64", Configuration="Development", PlatformType="Game", RequiredFile="Engine\Binaries\Win64\UE4Game.target", ProjectType="Any", bCanBeDisplayed=False)
 ```
