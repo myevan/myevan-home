@@ -18,17 +18,21 @@
 
 ## 깃허브 클론 CloneGitHub
 
-    :::bat
-    git clone https://github.com/EpicGames/UnrealEngine C:\UnrealEngine
+```bat
+md C:\EpicGames
+cd C:\EpicGames
+git clone https://github.com/EpicGames/UnrealEngine C:\EpicGames\UE_4.git
+```
 
 ## 프로젝트 준비 PrepareProject
 
 * [언리얼 비주얼 스튜디오 셋업](ue4_windows_vs_setup_digest.md) 
 * [언리얼 엔진 셋업 스크립트](ue4_setup_script_analysis.md) 실행
 
-    :::bat
-    cd C:\UnrealEngine
-    Setup.bat
+```bat
+cd C:\EpicGames\UE_4.git
+Setup.bat
+```
 
 ## 프로젝트 빌드 BuildProject
 
@@ -40,10 +44,4 @@
     cd C:\UnrealEngine
     GenerateProjectFiles.bat
 
-UE4.sln 을 더블 클릭합니다.
-
-
-
-## 로컬 빌드 LocalBuild
-
-<https://docs.unrealengine.com/latest/KOR/Programming/Development/InstalledBuildReference/index.html>
+ UE4.sln 을 오픈합니다.
