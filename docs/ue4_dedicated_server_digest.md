@@ -1,10 +1,10 @@
-# 언리얼 데디케이트 서버 가이드 요약
+# 언리얼 데디케이티드 서버 가이드 요약
 
 <https://wiki.unrealengine.com/Dedicated_Server_Guide_(Windows_%26_Linux)>
 
 ## 준비 
 
-언리얼 데디케이트 서버를 만들기 위해서는 [GitHub 버전 빌드](ue4_windows_build_tutorial.md)가 필요합니다.
+언리얼 데디케이티드 서버를 만들기 위해서는 [GitHub 버전 빌드](ue4_windows_build_tutorial.md)가 필요합니다.
 
 ## 프로젝트 생성 CreateProject
 

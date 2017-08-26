@@ -2,6 +2,7 @@
 
 게임 제작 기술 블로그입니다
 
+* [언리얼 엔진 데디케이티드 서버 요약](ue4_dedicated_server_digest.md)
 * [윈도우 키보드 드라이버 요약](windows_keyboard_digest.md) 한영키 CapsLock 전환
 * [pyenv 따라하기](pyenv_tutorial.md)
 * [우분투 IP 설정 따라하기](ubuntu_setup_ip_tutorial.md)
