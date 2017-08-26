@@ -39,6 +39,7 @@ pages:
         - "ue4":
             - "vs setup": ue4_windows_vs_setup_digest.md
             - "boost compile time": ue4_boost_compile_times_digest.md
+            - "dedicated": ue4_dedicated_server_digest.md
         - "vs2015":
             - "download": vs2015_download_digest.md
         - "vscode":
