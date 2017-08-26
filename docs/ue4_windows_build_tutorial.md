@@ -44,4 +44,54 @@ Setup.bat
     cd C:\UnrealEngine
     GenerateProjectFiles.bat
 
- UE4.sln 을 오픈합니다.
+UE4.sln 을 열어 **Development Editor** 를 빌드합니다.
+
+
+## 배포 버전 설정 DistributionSetup
+
+직접 빌드한 에디터로 프로젝트를 만들 경우 프로젝트 설정에 최적화시키기 위해 엔진을 다시 빌드하게 됩니다. 굳이 프로젝트별 엔진 빌드를 할 필요가 없다면 엔진을 **바이너리 배포 버전**으로 설정하는 것이 좋습니다.
+
+* GeneratedProjectFiles.bat 삭제
+* Build\SourceDistribution.txt 삭제
+* Build\InstalledBuild.txt 빈 파일 생성
+
+GeneratedProjectFiles.bat 와 SourceDistribution.txt 를 삭제할 경우 다시 소스 배포 버전으로 돌리기 어려우므로 삭제보다는 이름을 변경하는 방법이 좋습니다.
+
+### 바이너리 배포 버전 설정 MakeDistributionBinary
+
+`C:\EpicGames\UE_4.git\Build\BatchFiles\MakeDistributionBinary.bat`
+
+```bat
+@echo off
+if exist %~dp0..\InstalledBuild.txt (
+	echo Already made Distribution: Binary
+	goto finish
+)
+echo Make Distribution: Binary
+ren %~dp0..\..\..\GenerateProjectFiles.bat _GenerateProjectFiles.bat       
+ren %~dp0..\SourceDistribution.txt _SourceDistribution.txt
+copy NUL %~dp0..\InstalledBuild.bat
+
+:finish
+pause
+```
+
+### 소스 배포 버전 설정 MakeDistributionSource
+
+`C:\EpicGames\UE_4.git\Build\BatchFiles\MakeDistributionSource.bat`
+
+```bat
+@echo off
+if not exist %~dp0..\InstalledBuild.txt (
+	echo Already made Distribution: Source
+	goto finish
+)
+
+echo Make Distribution: Source
+if exist %~dp0..\..\..\_GenerateProjectFiles.bat ren %~dp0..\..\..\_GenerateProjectFiles.bat GenerateProjectFiles.bat       
+if exist %~dp0..\_SourceDistribution.txt ren %~dp0..\_SourceDistribution.txt SourceDistribution.txt
+if exist %~dp0..\InstalledBuild.txt del %~dp0..\InstalledBuild.txt
+
+:finish
+pause
+```
