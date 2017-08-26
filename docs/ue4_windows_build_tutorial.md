@@ -46,8 +46,33 @@ Setup.bat
 
 UE4.sln 을 열어 **Development Editor** 를 빌드합니다.
 
+## 에디터 실행 RunEditor
 
-## 배포 버전 설정 DistributionSetup
+에디터 실행 파일이 잘 안 보이는 곳에 위치하고 있기 때문에 배치 파일을 만들어 주면 편리합니다.
+
+`C:\EpicGames\UE_4.git\_RunEditor.bat`
+
+```bat
+@echo off
+start %~dp0Engine\Binaries\Win64\UE4Editor.exe
+```
+
+
+## 엔진 재등록 Re-RegisterEngine
+
+엔진 소스 경로를 변경하게 되면 .uproject 와의 연결이 끊어집니다. 재연결을 하기 위해서는 Setup.bat 를 실행해도 되지만 여러가지 절차를 수행하기 때문에 재등록 과정만 배치 파일로 만들어 주면 빠르게 엔진을 재등록 할 수 있습니다.
+
+`C:\EpicGames\UE_4.git\Build\BatchFiles\_RegisterEngine.bat`
+
+```bat
+@echo off
+echo Register Engine Path
+%~dp0..\..\..\Engine\Binaries\Win64\UnrealVersionSelector-Win64-Shipping.exe /register
+pause
+```
+
+
+## 배포 버전 설정 SetupDistribution
 
 직접 빌드한 에디터로 프로젝트를 만들 경우 프로젝트 설정에 최적화시키기 위해 엔진을 다시 빌드하게 됩니다. 굳이 프로젝트별 엔진 빌드를 할 필요가 없다면 엔진을 **바이너리 배포 버전**으로 설정하는 것이 좋습니다.
 
@@ -59,7 +84,7 @@ GeneratedProjectFiles.bat 와 SourceDistribution.txt 를 삭제할 경우 다시
 
 ### 바이너리 배포 버전 설정 MakeDistributionBinary
 
-`C:\EpicGames\UE_4.git\Build\BatchFiles\MakeDistributionBinary.bat`
+`C:\EpicGames\UE_4.git\Build\BatchFiles\_MakeDistributionBinary.bat`
 
 ```bat
 @echo off
@@ -78,7 +103,7 @@ pause
 
 ### 소스 배포 버전 설정 MakeDistributionSource
 
-`C:\EpicGames\UE_4.git\Build\BatchFiles\MakeDistributionSource.bat`
+`C:\EpicGames\UE_4.git\Build\BatchFiles\_MakeDistributionSource.bat`
 
 ```bat
 @echo off
