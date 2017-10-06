@@ -8,6 +8,7 @@ pages:
     - "home": index.md
     - "tutorials": 
         - "myevan site": myevan_site_tutorial.md
+        - "choco": choco_tutorial.md
         - "ue4 build": ue4_windows_build_tutorial.md
         - "python":
             - "pyenv": pyenv_tutorial.md
