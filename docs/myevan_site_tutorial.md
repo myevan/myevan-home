@@ -6,11 +6,10 @@
 
 #### 가상 환경 Virtual Environment
 
-python-2.7 + virtualenv
-
     :::bat
-    C:\> virtualenv \Python27\venvs\mkdocs
-    C:\> \Python27\venvs\mkdocs\Scripts\active
+    C:\> pip install virtualenv
+    C:\> virtualenv \VirtualEnvs\mkdocs
+    C:\> \VirtualEnvs\mkdocs\Scripts\active
     (mkdocs) C:\> pip install mkdocs
     (mkdocs) C:\> pip install pygments
     (mkdocs) C:\> pip install pymdown-extensions
@@ -21,8 +20,8 @@ python-2.7 + virtualenv
     :::bat
     (mkdocs) C:\> md \GitHub
     (mkdocs) C:\> cd \GitHub
-    (mkdocs) C:\GitHub> md \myevan
-    (mkdocs) C:\GitHub> cd \myevan
+    (mkdocs) C:\GitHub> md myevan
+    (mkdocs) C:\GitHub> cd myevan
     (mkdocs) C:\GitHub\myevan> mkdocs new .
 
 #### 사이트 미리 보기 Preview Site
@@ -33,6 +32,17 @@ python-2.7 + virtualenv
     (mkdocs) C:\GitHub\myevan> mkdocs serve
 
 <http://localhost:8000> 접속하면 미리 보기가 가능합니다. 변경 사항도 바로 적용됩니다. 
+
+#### 비주얼 스튜디오 코드 설정 Visual Studio Code Settings
+
+    :::json
+    {
+        "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+        "terminal.integrated.shellArgs.windows": [
+            "/K",
+            "C:\\VirtualEnvs\\mkdocs\\Scripts\\activate.bat"
+        ]
+    }
 
 ### POSIX
 
