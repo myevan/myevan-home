@@ -1,10 +1,12 @@
 # 윈도우 패키지 관리 따라하기
 
+## 초코 소개
+
 <https://chocolatey.org/>
 
 초코렛티(이하 초코)는 윈도우용 패키지 매니저 입니다.
 
-## 설치
+## 초코 설치
 
 <https://chocolatey.org/install>
 
@@ -23,7 +25,7 @@ C:\> dir C:\ProgramData\chocolatey
 다른 경로나 관리자 권한 없이도 설치할 수 있지만, 보안상의 이슈로 관리자 모드로 디폴트 경로 설치를 추천한다고 합니다.
 
 
-## 패키지
+## 패키지 설치
 
 <https://chocolatey.org/packages>
 
@@ -51,7 +53,8 @@ C:\> choco install python2
 C:\> choco install vim
 ```
 
-## 제거 
+
+## 초코 제거 
 
 <https://chocolatey.org/docs/uninstallation>
 
@@ -62,12 +65,12 @@ C:\> choco install vim
 * 초코 `C:\ProgramData\chocolatey`
 * 도구들 `C:\tools`
 
-### 시스템 환경 변수
+### 시스템 환경 변수 제거
 
 * `ChocolateyInstall` 제거
 * `PATH`: `C:\ProgramData\chocolatey\bin` 제거
 
-### 사용자 환경 변수 
+### 사용자 환경 변수 제거
 
 * `ChocolateyToolsLocation` 제거
 * `ChocolateyLastPathUpdate` 제거
