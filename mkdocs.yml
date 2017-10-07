@@ -14,7 +14,7 @@ pages:
         - "mac":
             - "homebrew": mac_homebrew.md
             - "python":
-                - "virtualenv": python_mac_venv_wrapper.md
+                - "virtualenv": mac_python_virtualenv.md
     - "tutorial":
         - "myevan site": myevan_site.md
         - "ue4 build": ue4_windows_build.md

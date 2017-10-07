@@ -20,6 +20,7 @@
 #### 패키지 관리
 
 * [Homebrew](./mac_homebrew.md)
+* [Python VirtualEnv](./mac_python_virtualenv.md)
 
 #### 시스템 관리
 
