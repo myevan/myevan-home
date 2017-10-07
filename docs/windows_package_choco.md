@@ -29,11 +29,18 @@ C:\> dir C:\ProgramData\chocolatey
 
 <https://chocolatey.org/packages>
 
-윈도우 패키지 설치를 그대로 사용하기 때문에 제어판에서 설치 내역을 볼 수 있습니다. 다만 choco 를 통해 설치한 프로그램을 제어판에서 직접 삭제하면 choco 에서 삭제를 인지하지 못 하는 이슈가 있습니다.
+### FAQ
+
+#### 인스톨 버전과 포터블 버전
+
+<https://chocolatey.org/faq#what-distinction-does-chocolatey-make-between-an-installable-and-a-portable-application> 
+
+* 인스톨 버전은 어플리케이션 설치 관리자를 사용하므로 관리자 권한이 필요합니다.
+* 포터블 버전은 자체 설치 스크립트를 사용하므로 관리자 권한을 필요로 하지 않습니다.
 
 ### python
 
-python-3.x 버전이 디폴트 설치 버전입니다.
+python-3.x 버전이 디폴트 버전입니다.
 
 ```bat
 C:\> choco install python
