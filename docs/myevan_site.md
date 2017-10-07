@@ -33,17 +33,6 @@
 
 <http://localhost:8000> 접속하면 미리 보기가 가능합니다. 변경 사항도 바로 적용됩니다. 
 
-#### 비주얼 스튜디오 코드 설정 Visual Studio Code Settings
-
-    :::json
-    {
-        "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-        "terminal.integrated.shellArgs.windows": [
-            "/K",
-            "C:\\VirtualEnvs\\mkdocs\\Scripts\\activate.bat"
-        ]
-    }
-
 ### POSIX
 
 * macOS Sierra 10.12.1 

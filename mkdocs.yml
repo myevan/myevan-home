@@ -14,6 +14,10 @@ pages:
             - "system":
                 - "hangul": windows_hangul_key_capslock.md
                 - "remote desktop": windows_remote_desktop_port.md
+            - "editor":
+                - "vscode":
+                    - "python": 
+                        - "virtualenv": windows_vscode_python_virtualenv.md
         - "mac":
             - "homebrew": mac_homebrew.md
             - "python":
