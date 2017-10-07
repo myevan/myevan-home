@@ -6,66 +6,66 @@ markdown_extensions:
         permalink: True
 pages:
     - "home": index.md
-    - "tutorials":
-        - "myevan site": myevan_site_tutorial.md
-        - "ue4 build": ue4_windows_build_tutorial.md
+    - "tutorial":
+        - "myevan site": myevan_site.md
+        - "ue4 build": ue4_windows_build.md
         - "python":
-            - "pyenv": pyenv_tutorial.md
+            - "pyenv": pyenv.md
         - "windows":
-            - "choco": windows_choco_tutorial.md
+            - "choco": windows_choco.md
         - "mac":
-            - "homebrew": mac_homebrew_tutorial.md
+            - "homebrew": mac_homebrew.md
             - "xcode": 
-                - "command_line": mac_xcode_command_line_tutorial.md
+                - "command_line": mac_xcode_command_line.md
         - "hyper-v":
             - "ubuntu":
-                - "installation": hyper_v_ubuntu_installation_tutorial.md
-                - "disk expanding": hyper_v_ubuntu_disk_expanding_tutorial.md
+                - "installation": hyper_v_ubuntu_installation.md
+                - "disk expanding": hyper_v_ubuntu_disk_expanding.md
         - "ubuntu":
-            - "ip": ubuntu_setup_ip_tutorial.md
-    - "digests":
+            - "ip": ubuntu_setup_ip.md
+    - "digest":
         - "vcs":
             - "git":
-                - "git bash prompt": git_bash_prompt_digest.md
-                - "git hosting": git_windows_hosting_digest.md
+                - "git bash prompt": git_bash_prompt.md
+                - "git hosting": git_windows_hosting.md
                 - "git lab": 
-                    - "installation": gitlab_ubuntu_installation_digest.md
+                    - "installation": gitlab_ubuntu_installation.md
                 - "git swarm": 
-                    - "requirements": helix_gitswarm_requirements_digest.md
-                    - "installation": helix_gitswarm_ubuntu_installation_digest.md
-                    - "administration": helix_gitswarm_ubuntu_administration_digest.md
+                    - "requirements": helix_gitswarm_requirements.md
+                    - "installation": helix_gitswarm_ubuntu_installation.md
+                    - "administration": helix_gitswarm_ubuntu_administration.md
             - "helix":
-                - "svn migration": helix_perforce_windows_svn_migration_digest.md
-                - "perforce daemon": helix_perforce_windows_daemon_digest.md
-                - "perforce service": helix_perforce_windows_service_digest.md
+                - "svn migration": helix_perforce_windows_svn_migration.md
+                - "perforce daemon": helix_perforce_windows_daemon.md
+                - "perforce service": helix_perforce_windows_service.md
         - "ue4":
-            - "vs setup": ue4_windows_vs_setup_digest.md
-            - "boost compile time": ue4_boost_compile_times_digest.md
-            - "dedicated": ue4_dedicated_server_digest.md
+            - "vs setup": ue4_windows_vs_setup.md
+            - "boost compile time": ue4_boost_compile_times.md
+            - "dedicated": ue4_dedicated_server.md
         - "vs2015":
-            - "download": vs2015_download_digest.md
+            - "download": vs2015_download.md
         - "vscode":
-            - "vim plugin": vscode_plugin_vim_digest.md
+            - "vim plugin": vscode_plugin_vim.md
         - "vmware":
-            - "static ip": vmware_fusion_8_static_ip_digest.md
-            - "port forwarding": vmware_fusion_8_port_forwarding_digest.md
+            - "static ip": vmware_fusion_8_static_ip.md
+            - "port forwarding": vmware_fusion_8_port_forwarding.md
         - "mac":
-            - "enable root": mac_root_enable_digest.md
+            - "enable root": mac_root_enable.md
             - "hangul": mac_hangul_key_capslock.md
         - "windows":
-            - "hangul": windows_hangul_key_capslock_digest.md
+            - "hangul": windows_hangul_key_capslock.md
         - "python":
-            - "mac venv": python_mac_venv_wrapper_digest.md
-    - "issues":
+            - "mac venv": python_mac_venv_wrapper.md
+    - "issue":
         - "ue4":
-            - "vs ext": ue4_windows_vs_git_ext_gitignore_issue.md
+            - "vs ext": ue4_windows_vs_git_ext_gitignore.md
         - "helix":
-            - "gitswarm mirror": helix_gitswarm_ubuntu_mirror_repository_delete_issue.md
+            - "gitswarm mirror": helix_gitswarm_ubuntu_mirror_repository_delete.md
     - "analysis":
         - "ue4":
-            - "setup script": ue4_setup_script_analysis.md
+            - "setup script": ue4_setup_script.md
             - "build tool":
-                - "processor count multiplier": ue4_processor_count_multiplier_analysis.md
-                - "faster without unity": ue4_faster_without_unity_analysis.md
-                - "min files using precompiled header": ue4_min_files_using_precompiled_header_analysis.md
+                - "processor count multiplier": ue4_processor_count_multiplier.md
+                - "faster without unity": ue4_faster_without_unity.md
+                - "min files using precompiled header": ue4_min_files_using_precompiled_header.md
 

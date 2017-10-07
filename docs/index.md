@@ -8,17 +8,17 @@
 
 #### 패키지 관리
 
-* [Chocolatey](./windows_choco_tutorial.md)
+* [Chocolatey](./windows_choco.md)
 
 #### 사용 편의
 
-* [한글 키 Capslock 사용](./windows_hangul_key_capslock_digest.md)
+* [한글 키 Capslock 사용](./windows_hangul_key_capslock.md)
 
 ### 맥
 
 #### 패키지 관리
 
-* [Homebrew](./mac_homebrew_tutorial.md)
+* [Homebrew](./mac_homebrew.md)
 
 #### 사용 편의
 
@@ -29,4 +29,4 @@
 #### 에디터
 
 * VisualStudioCode Plugins
-    * [VSCodeVim](./vscode_plugin_vim_digest.md)
+    * [VSCodeVim](./vscode_plugin_vim.md)
