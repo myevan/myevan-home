@@ -8,18 +8,16 @@ pages:
     - "home": index.md
     - "setup":
         - "windows":
-            - "choco": windows_choco.md
+            - "package": windows_package_choco.md
             - "python": 
                 - "virtualenv": windows_python_virtualenv.md
             - "system":
                 - "hangul": windows_hangul_key_capslock.md
                 - "remote desktop": windows_remote_desktop_port.md
             - "editor":
-                - "vscode":
-                    - "python": 
-                        - "virtualenv": windows_vscode_python_virtualenv.md
+                - "vscode_python": windows_vscode_python_virtualenv.md
         - "mac":
-            - "homebrew": mac_homebrew.md
+            - "package": mac_package_homebrew.md
             - "python":
                 - "pyenv": mac_python_pyenv.md
                 - "virtualenv": 
