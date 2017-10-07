@@ -31,10 +31,16 @@ C:\> dir C:\ProgramData\chocolatey
 
 ### python
 
-python-3.x 버전이 디폴트입니다. python-2.x 는 python2 를 설치해야 합니다.
+python-3.x 버전이 디폴트 설치 버전입니다.
 
 ```bat
 C:\> choco install python
+```
+
+python-2.x 는 python2 를 설치해야 합니다.
+
+```bat
+C:\> choco install python2
 ```
 
 ### neovim
