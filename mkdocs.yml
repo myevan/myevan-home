@@ -51,6 +51,7 @@ pages:
             - "port forwarding": vmware_fusion_8_port_forwarding_digest.md
         - "mac":
             - "enable root": mac_root_enable_digest.md
+            - "hangul": mac_hangul_key_capslock.md
         - "windows":
             - "hangul": windows_hangul_key_capslock_digest.md
         - "python":

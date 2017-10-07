@@ -10,7 +10,7 @@
 
 * [Chocolatey](./windows_choco_tutorial.md)
 
-#### 운영 체제  
+#### 사용 편의
 
 * [한글 키 Capslock 사용](./windows_hangul_key_capslock_digest.md)
 
@@ -19,6 +19,10 @@
 #### 패키지 관리
 
 * [Homebrew](./mac_homebrew_tutorial.md)
+
+#### 사용 편의
+
+* [한글 키 Capslock 사용](./mac_hangul_key_capslock.md)
 
 ### 크로스 플랫폼
 
