@@ -53,6 +53,9 @@ C:\> choco install python2
 C:\> choco install vim
 ```
 
+### VisualStudioCode
+
+현재(2017-10-07) 설치 스크립트 버그로 인해 컨텍스트 메뉴가 생기지 않습니다. 직접 설치하는 것이 좋습니다.
 
 ## 초코 제거 
 
