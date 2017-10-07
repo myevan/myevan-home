@@ -9,6 +9,7 @@
 #### 패키지 관리
 
 * [Chocolatey](./windows_choco.md)
+* [Python VirtualEnv](./windows_python_virtualenv.md)
 
 #### 시스템 관리
 

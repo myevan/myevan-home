@@ -6,15 +6,21 @@ markdown_extensions:
         permalink: True
 pages:
     - "home": index.md
+    - "os":
+        - "windows":
+            - "choco": windows_choco.md
+            - "python": 
+                - "virtualenv": windows_python_virtualenv.md
+        - "mac":
+            - "homebrew": mac_homebrew.md
+            - "python":
+                - "virtualenv": python_mac_venv_wrapper.md
     - "tutorial":
         - "myevan site": myevan_site.md
         - "ue4 build": ue4_windows_build.md
         - "python":
             - "pyenv": pyenv.md
-        - "windows":
-            - "choco": windows_choco.md
         - "mac":
-            - "homebrew": mac_homebrew.md
             - "xcode": 
                 - "command_line": mac_xcode_command_line.md
         - "hyper-v":
@@ -54,8 +60,6 @@ pages:
             - "hangul": mac_hangul_key_capslock.md
         - "windows":
             - "hangul": windows_hangul_key_capslock.md
-        - "python":
-            - "mac venv": python_mac_venv_wrapper.md
     - "issue":
         - "ue4":
             - "vs ext": ue4_windows_vs_git_ext_gitignore.md
