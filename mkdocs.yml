@@ -17,15 +17,15 @@ pages:
         - "mac":
             - "homebrew": mac_homebrew.md
             - "python":
-                - "virtualenv": mac_python_virtualenv.md
+                - "pyenv": mac_python_pyenv.md
+                - "virtualenv": 
+                    - "wrapper": mac_python_virtualenvwrapper.md
             - "system":
                 - "hangul": mac_hangul_key_capslock.md
                 - "enable root": mac_root_enable.md
     - "tutorial":
         - "myevan site": myevan_site.md
         - "ue4 build": ue4_windows_build.md
-        - "python":
-            - "pyenv": pyenv.md
         - "mac":
             - "xcode": 
                 - "command_line": mac_xcode_command_line.md

@@ -1,4 +1,4 @@
-# 맥 파이썬 가상 환경
+# 맥 파이썬 가상 환경 랩퍼
 
 <http://blog.naver.com/ez_?Redirect=Log&logNo=140138625021&from=postView>
 

@@ -9,7 +9,7 @@
 #### 패키지 관리
 
 * [Chocolatey](./windows_choco.md)
-* [Python VirtualEnv](./windows_python_virtualenv.md)
+* [python virtualenv](./windows_python_virtualenv.md)
 
 #### 시스템 관리
 
@@ -21,7 +21,8 @@
 #### 패키지 관리
 
 * [Homebrew](./mac_homebrew.md)
-* [Python VirtualEnv](./mac_python_virtualenv.md)
+* [pyenv](./mac_python_pyenv.md)
+* [python virtualEnvwrapper](./mac_python_virtualenvwrapper.md)
 
 #### 시스템 관리
 
