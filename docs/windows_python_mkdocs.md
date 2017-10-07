@@ -19,17 +19,17 @@ C:\> \VirtualEnvs\mkdocs\Scripts\active
 (mkdocs) C:\Mkdocs> cd example
 ```
 
-## 보기
+## 미리 보기
+
+### 서버 실행
 
 ```bat
 (mkdocs) C:\Mkdocs\example> mkdocs serve
 ```
 
-## 빌드
+### 내용 확인
 
-```bat
-(mkdocs) C:\Mkdocs\example> mkdocs build
-```
+<http://localhost:8000>
 
 ## 테마
 

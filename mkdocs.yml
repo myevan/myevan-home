@@ -12,27 +12,31 @@ pages:
                 - "package": windows_package_mgr_choco.md
                 - "hangul": windows_hangul_key_capslock.md
                 - "remote desktop": windows_remote_desktop_port.md
-            - "python": 
                 - "virtualenv": windows_python_virtualenv.md
-                - "mkdocs": windows_python_mkdocs.md
             - "editor":
-                - "vscode python": windows_vscode_python_virtualenv.md
+                - "vscode":
+                    - "python": windows_vscode_python_virtualenv.md
+            - "tool": 
+                - "mkdocs": windows_python_mkdocs.md
         - "mac":
             - "system":
                 - "package": mac_package_mgr_homebrew.md
                 - "hangul": mac_hangul_key_capslock.md
                 - "enable root": mac_root_enable.md
-            - "xcode": 
-                - "command_line": mac_xcode_command_line.md
             - "python":
                 - "pyenv": mac_python_pyenv.md
                 - "virtualenv": 
                     - "wrapper": mac_python_virtualenvwrapper.md
+            - "tool": 
+                - "xcode": mac_xcode_command_line.md
         - "xplatform":
             - "vscode plugin":
                 - "vim": vscode_plugin_vim.md
+        - "github.io": 
+            - "mkdocs": github_io_mkdocs.md
+            - "custom domain": github_io_custom_domain.md
+
     - "tutorial":
-        - "myevan site": myevan_site.md
         - "ue4 build": ue4_windows_build.md
         - "hyper-v":
             - "ubuntu":
