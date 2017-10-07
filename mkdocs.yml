@@ -15,7 +15,9 @@ pages:
             - "python": 
                 - "virtualenv": windows_python_virtualenv.md
             - "editor":
-                - "vscode_python": windows_vscode_python_virtualenv.md
+                - "vscode python": windows_vscode_python_virtualenv.md
+            - "tool":
+                - "markdown html": windows_markdown_html.md
         - "mac":
             - "system":
                 - "package": mac_package_management.md
