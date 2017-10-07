@@ -1,6 +1,4 @@
-# 윈도우 키보드 드라이버 요약
-
-## 한영키 Capslock 사용
+# 윈도우 한영키 Capslock 사용 요약
 
 <https://docs.microsoft.com/ko-kr/windows-hardware/drivers/hid/keyboard-and-mouse-class-drivers>
 

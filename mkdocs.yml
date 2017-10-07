@@ -52,7 +52,7 @@ pages:
         - "mac":
             - "enable root": mac_root_enable_digest.md
         - "windows":
-            - "keyboard": windows_keyboard_digest.md
+            - "hangul": windows_hangul_key_capslock_digest.md
         - "python":
             - "mac venv": python_mac_venv_wrapper_digest.md
     - "issues":

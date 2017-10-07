@@ -4,11 +4,15 @@
 
 ## 개발 환경
 
-### 윈도우 
+### 윈도우
 
 #### 패키지 관리
 
 * [Chocolatey](./windows_choco_tutorial.md)
+
+#### 운영 체제  
+
+* [한글 키 Capslock 사용](./windows_hangul_key_capslock_digest.md)
 
 ### 맥
 
