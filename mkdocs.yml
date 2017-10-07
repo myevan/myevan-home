@@ -11,10 +11,16 @@ pages:
             - "choco": windows_choco.md
             - "python": 
                 - "virtualenv": windows_python_virtualenv.md
+            - "system":
+                - "hangul": windows_hangul_key_capslock.md
+                - "remote desktop": windows_remote_desktop_port.md
         - "mac":
             - "homebrew": mac_homebrew.md
             - "python":
                 - "virtualenv": mac_python_virtualenv.md
+            - "system":
+                - "hangul": mac_hangul_key_capslock.md
+                - "enable root": mac_root_enable.md
     - "tutorial":
         - "myevan site": myevan_site.md
         - "ue4 build": ue4_windows_build.md
@@ -55,11 +61,6 @@ pages:
         - "vmware":
             - "static ip": vmware_fusion_8_static_ip.md
             - "port forwarding": vmware_fusion_8_port_forwarding.md
-        - "mac":
-            - "enable root": mac_root_enable.md
-            - "hangul": mac_hangul_key_capslock.md
-        - "windows":
-            - "hangul": windows_hangul_key_capslock.md
     - "issue":
         - "ue4":
             - "vs ext": ue4_windows_vs_git_ext_gitignore.md

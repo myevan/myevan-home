@@ -14,6 +14,7 @@
 #### 시스템 관리
 
 * [한글 키 Capslock 사용](./windows_hangul_key_capslock.md)
+* [리모트 데스크탑 포트 변경](./windows_remote_desktop_port.md)
 
 ### 맥
 
