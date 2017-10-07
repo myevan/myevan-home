@@ -29,16 +29,7 @@ C:\> dir C:\ProgramData\chocolatey
 <https://chocolatey.org/packages>
 
 ```bat
-C:\> choco uninstall 이름
-```
-
-## 자루 패키지 리스트
-
-```bat
-C:\> choco install vim
-C:\> choco install git
-C:\> choco install python
-C:\> choco install python2
+C:\> choco install 이름
 ```
 
 ## 로컬 패키지 리스트 
