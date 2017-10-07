@@ -6,8 +6,19 @@
 
 ### 윈도우 
 
-* 패키지 관리: [초코 따라하기](./windows_choco_tutorial.md)
+#### 패키지 관리
+
+* [Chocolatey](./windows_choco_tutorial.md)
 
 ### 맥
 
-* 패키지 관리: [홈브류 따라하기](./mac_homebrew_tutorial.md)
+#### 패키지 관리
+
+* [Homebrew](./mac_homebrew_tutorial.md)
+
+### 크로스 플랫폼
+
+#### 에디터
+
+* VisualStudioCode Plugins
+    * [VSCodeVim](./vscode_plugin_vim_digest.md)
