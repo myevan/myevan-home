@@ -29,9 +29,9 @@ C:\> dir C:\ProgramData\chocolatey
 
 <https://chocolatey.org/packages>
 
-### FAQ
+## 패키지 이슈 
 
-#### 인스톨 버전과 포터블 버전
+### 인스톨 버전과 포터블 버전
 
 <https://chocolatey.org/faq#what-distinction-does-chocolatey-make-between-an-installable-and-a-portable-application> 
 
