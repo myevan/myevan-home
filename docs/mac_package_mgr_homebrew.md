@@ -1,4 +1,4 @@
-# 맥 패키지 관리 따라하기
+# 맥 패키지 관리자: homebrew
 
 <https://brew.sh/>
 

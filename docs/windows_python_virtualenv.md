@@ -2,7 +2,7 @@
 
 ## 준비
 
-* [윈도우 패키지 관리자 설치](windows_package_management.md)
+* [윈도우 패키지 관리자 설치](/windows_package_mgr_choco.md)
 * 파이썬 설치
 
 ```bat

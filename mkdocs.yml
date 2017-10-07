@@ -9,7 +9,7 @@ pages:
     - "setup":
         - "windows":
             - "system":
-                - "package": windows_package_management.md
+                - "package": windows_package_mgr_choco.md
                 - "hangul": windows_hangul_key_capslock.md
                 - "remote desktop": windows_remote_desktop_port.md
             - "python": 
@@ -20,7 +20,7 @@ pages:
                 - "markdown html": windows_markdown_html.md
         - "mac":
             - "system":
-                - "package": mac_package_management.md
+                - "package": mac_package_mgr_homebrew.md
                 - "hangul": mac_hangul_key_capslock.md
                 - "enable root": mac_root_enable.md
             - "xcode": 
