@@ -14,10 +14,9 @@ pages:
                 - "remote desktop": windows_remote_desktop_port.md
             - "python": 
                 - "virtualenv": windows_python_virtualenv.md
+                - "mkdocs": windows_python_mkdocs.md
             - "editor":
                 - "vscode python": windows_vscode_python_virtualenv.md
-            - "tool":
-                - "markdown html": windows_markdown_html.md
         - "mac":
             - "system":
                 - "package": mac_package_mgr_homebrew.md

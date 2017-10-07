@@ -19,7 +19,7 @@
 
 #### 도구
 
-* [마크다운 HTML 문서 생성](/windows_markdown_html.md)
+* [파이썬 마크다운 HTML 생성](/windows_python_mkdocs.md)
 
 ### 맥
 
