@@ -6,12 +6,13 @@ markdown_extensions:
         permalink: True
 pages:
     - "home": index.md
-    - "tutorials": 
+    - "tutorials":
         - "myevan site": myevan_site_tutorial.md
-        - "choco": choco_tutorial.md
         - "ue4 build": ue4_windows_build_tutorial.md
         - "python":
             - "pyenv": pyenv_tutorial.md
+        - "windows":
+            - "choco": windows_choco_tutorial.md
         - "mac":
             - "homebrew": mac_homebrew_tutorial.md
             - "xcode": 

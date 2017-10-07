@@ -2,6 +2,8 @@
 
 게임 제작 기술 블로그입니다
 
-## 따라하기
+## 개발 환경
 
-* [초코 따라하기](./choco_tutorial.md)
+### 윈도우 
+
+* 패키지 관리: [초코 따라하기](./windows_choco_tutorial.md)
