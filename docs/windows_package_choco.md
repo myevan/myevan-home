@@ -29,6 +29,13 @@ C:\> dir C:\ProgramData\chocolatey
 
 <https://chocolatey.org/packages>
 
+```bat
+C:\> choco install vim
+C:\> choco install git
+C:\> choco install python
+C:\> choco install python2
+```
+
 ## 패키지 이슈 
 
 ### 인스톨 버전과 포터블 버전
@@ -40,25 +47,11 @@ C:\> dir C:\ProgramData\chocolatey
 
 ### python
 
-python-3.x 버전이 디폴트 버전입니다.
-
-```bat
-C:\> choco install python
-```
-
-python-2.x 는 python2 를 설치해야 합니다.
-
-```bat
-C:\> choco install python2
-```
+python 설치시 python-3.x 버전이 설치 됩니다. python-2.x 를 설치하기 위해서는 python2 를 설치해야 합니다.
 
 ### neovim
 
 윈도우 패키지가 존재하지 않아 `C:\tools\neovim\Neovim` 에 설치됩니다. 설치 위치를 변경하려면 환경 변수 `ChocolateyToolsLocation` 를 설정합니다.
-
-```bat
-C:\> choco install vim
-```
 
 ### VisualStudioCode
 
