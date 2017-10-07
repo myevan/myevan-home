@@ -1,10 +1,8 @@
-# pyenv 따라하기
+# 맥 파이썬 환경 따라하기
 
 ## 설치 
 
-### Mac
-
-[Homebrew](mac_homebrew_tutorial.md) 와 [Xcode 커맨드라인 도구](mac_xcode_command_line_tutorial.md)가 필요합니다
+[Homebrew](/mac_homebrew.md) 와 [Xcode 커맨드라인 도구](/mac_xcode_command_line.md)가 필요합니다
 
 ```bash
 $ brew install pyenv
