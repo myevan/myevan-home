@@ -25,7 +25,7 @@ C:\> \VirtualEnvs\mkdocs\Scripts\active
 (mkdocs) C:\Mkdocs\example> mkdocs serve
 ```
 
-### 빌드
+## 빌드
 
 ```bat
 (mkdocs) C:\Mkdocs\example> mkdocs build
