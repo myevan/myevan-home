@@ -24,16 +24,33 @@ C:\> dir C:\ProgramData\chocolatey
 
 다른 경로나 관리자 권한 없이도 설치할 수 있지만, 보안상의 이슈로 관리자 모드로 디폴트 경로 설치를 추천한다고 합니다.
 
-
 ## 패키지 설치
 
 <https://chocolatey.org/packages>
+
+```bat
+C:\> choco uninstall 이름
+```
+
+## 자루 패키지 리스트
 
 ```bat
 C:\> choco install vim
 C:\> choco install git
 C:\> choco install python
 C:\> choco install python2
+```
+
+## 로컬 패키지 리스트 
+
+```bat
+C:\> choco list -l
+```
+
+## 패키지 제거
+
+```bat
+C:\> choco uninstall 이름
 ```
 
 ## 패키지 이슈 
@@ -63,10 +80,18 @@ python 설치시 python-3.x 버전이 설치 됩니다. python-2.x 를 설치하
 
 스크립트 제거를 지원하지만 깔끔한 제거를 보장하지는 않습니다.
 
-### 폴더 삭제
+### 모든 패키지 제거
 
-* 초코 `C:\ProgramData\chocolatey`
-* 도구들 `C:\tools`
+```bat
+C:\> choco uninstall all -y
+```
+
+### 초코 폴더 삭제
+
+```bat
+C:\> del /S %ChocolateyToolsLocation%
+C:\> del /S %ChocolateyInstall%
+```
 
 ### 시스템 환경 변수 제거
 
