@@ -23,6 +23,7 @@ pages:
                 - "package": mac_package_mgr_homebrew.md
                 - "hangul": mac_hangul_key_capslock.md
                 - "enable root": mac_root_enable.md
+                - "hostname": mac_terminal_hostname.md
             - "python":
                 - "pyenv": mac_python_pyenv.md
                 - "virtualenv": 
