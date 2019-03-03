@@ -13,8 +13,8 @@ bash profile 에 pyenv 설정을 추가합니다.
 
 ```bash
 $ vim ~/.bash_profile
-eval "$(pyevn init -)"
-eval "$(pyevn-virtualenv init -)"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 ```
 
 터미널에 재접속한 다음 원하는 파이썬 버전을 설치합니다.
