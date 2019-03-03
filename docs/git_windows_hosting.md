@@ -32,7 +32,7 @@ C:\Repositories\git\프로젝트\config
     cd C:\Repositories\git\프로젝트
     git remote update
 
-미러 저장소를 사용해 [Git 호스팅](git_windows_hosting_digest.md)을 구축하면 git 프로토콜을 사용해 네트워크 접근이 가능합니다.
+미러 저장소를 사용해 Git 호스팅을 구축하면 git 프로토콜을 사용해 네트워크 접근이 가능합니다.
 
     :::bat
     git clone git://localhost/프로젝트 C:\프로젝트

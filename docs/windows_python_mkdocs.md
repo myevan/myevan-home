@@ -2,7 +2,7 @@
 
 ## 준비 
 
-* [윈도우 파이썬 가상 환경 설치](/windows_python_virtualenv.md)
+* [윈도우 파이썬 가상 환경 설치](/windows_python_virtualenv)
 
 ```bat
 C:\> virtualenv \VirtualEnvs\mkdocs

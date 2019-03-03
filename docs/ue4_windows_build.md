@@ -2,7 +2,7 @@
 
 ## 비주얼 스튜디오 설치 InstallVisualStudio
 
-[Visual Studio 2015 를 다운로드](vs2015_download_digest.md)받은 후 사용자 정의 설치를 진행합니다.
+[Visual Studio 2015 를 다운로드](/vs2015_download_digest)받은 후 사용자 정의 설치를 진행합니다.
 
 * Visual C++
 * Visual C#
@@ -26,8 +26,8 @@ git clone https://github.com/EpicGames/UnrealEngine C:\EpicGames\UE_4.git
 
 ## 프로젝트 준비 PrepareProject
 
-* [언리얼 비주얼 스튜디오 셋업](ue4_windows_vs_setup_digest.md) 
-* [언리얼 엔진 셋업 스크립트](ue4_setup_script_analysis.md) 실행
+* [언리얼 비주얼 스튜디오 셋업](ue4_windows_vs_setup_digest) 
+* [언리얼 엔진 셋업 스크립트](ue4_setup_script_analysis) 실행
 
 ```bat
 cd C:\EpicGames\UE_4.git

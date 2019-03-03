@@ -4,7 +4,7 @@
 
 ## 준비
 
-[맥 루트 유저 활성화](/mac_root_enable.md)
+[맥 루트 유저 활성화](/mac_root_enable)
 
 ## 설치
 

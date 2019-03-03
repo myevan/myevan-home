@@ -2,7 +2,7 @@
 
 ## 윈도우
 
-[윈도우 파이썬 마크다운 HTML 생성](/windows_python_mkdocs.md) 환경을 준비합니다.
+[윈도우 파이썬 마크다운 HTML 생성](/windows_python_mkdocs) 환경을 준비합니다.
 
 ```bat
 (mkdocs) C:\> md \GitHub
@@ -39,11 +39,11 @@ git 을 사용해서 정적 사이트 배포가 가능합니다.
 (mkdocs)$ C:\GitHub\myevan\site> git push
 ```
 
-배포된 사이트는 <https://myevan.github.io> 에서 확인 가능합니다. 
+배포된 사이트는 <https://myevan.github.io> 에서 확인 가능합니다.
 
 ## 맥
 
-[맥 파이썬 마크다운 HTML 생성](/mac_python_mkdocs.md) 환경을 준비합니다.
+[맥 파이썬 마크다운 HTML 생성](/mac_python_mkdocs) 환경을 준비합니다.
 
 ```bash
 (mkdocs)$ mkdir GitHub

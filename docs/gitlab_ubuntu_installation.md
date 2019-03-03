@@ -9,7 +9,7 @@
 * 스토리지: 512GB
 * 게스트 OS: `Ubuntu-x64-14.04`
 * 호스트 OS:
-    * [Hyper-V 우분투 설치 따라하기](hyper_v_ubuntu_installation_tutorial.md)
+    * [Hyper-V 우분투 설치 따라하기](hyper_v_ubuntu_installation_tutorial)
 
 
 운영체제 패키지들을 최신으로 업데이트합니다.

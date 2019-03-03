@@ -2,7 +2,7 @@
 
 <https://www.perforce.com/perforce/doc.current/manuals/gitswarm/install/installation.html>
 
-[요구 사항](helix_gitswarm_requirements_digest.md)을 확인합니다.
+[요구 사항](helix_gitswarm_requirements_digest)을 확인합니다.
 
 * 가상머신: OS X + VMWare Fusion 8
 * 코어: 4개
@@ -12,7 +12,7 @@
 
 호스트 머신 IP 를 고정 IP로 설정하고 도메인 관리 서버에 등록합니다.
 
-* [VM 웨어 퓨전 8 정적 IP 요약](vmware_fusion_8_static_ip_digest.md)
+* [VM 웨어 퓨전 8 정적 IP 요약](vmware_fusion_8_static_ip_digest)
 
 운영체제 패키지들을 최신으로 업데이트합니다.
 
@@ -88,7 +88,7 @@ $ sudo gitswarm-ctl reconfigure
 
 외부에서 가상 머신에 접속하기 위해서는 [포트 포워딩]이 필요합니다.
 
-* [VM 웨어 퓨전 8 포트 포워딩 요약](vmware_fusion_8_port_forwarding_digest.md)
+* [VM 웨어 퓨전 8 포트 포워딩 요약](vmware_fusion_8_port_forwarding_digest)
 
 깃 스웜 사이트에 접속하면 root 계정 패스워드를 설정할 수 있습니다.
 
