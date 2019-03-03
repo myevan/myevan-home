@@ -46,6 +46,8 @@ pages:
         - "ubuntu":
             - "ip": ubuntu_setup_ip.md
     - "digest":
+        - "*nix":
+            - "screen": screen.md
         - "vcs":
             - "git":
                 - "git bash prompt": git_bash_prompt.md
