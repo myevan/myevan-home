@@ -20,38 +20,8 @@ pip install tcod
 
 ## 따라하기
 
-로깅 모듈을 준비합니다.
-
-```python
-import logging
-logging.basicConfig(level=logging.DEBUG)
-```
-
-텍스트 출력에 필요한 폰트가 필요합니다. github 에서 폰트 이미지를 다운로드 받습니다.
-
-```python
-import os
-import urllib.request
-
-def download_file(remote_file_path, local_file_path):
-    if os.path.isfile(local_file_path):
-        logging.debug(f"found_local_file:{local_file_path}")
-    else:
-        logging.debug(f"download_remote_file:{remote_file_path}")
-        file_data = urllib.request.urlopen(remote_file_path).read()
-
-        local_dir_path = os.path.dirname(local_file_path)
-        if not os.path.isdir(local_file_path):
-            logging.debug(f"make_local_dir:{local_dir_path}")
-            os.makedirs(local_dir_path)
-
-        logging.debug(f"save_local_file:{local_file_path}")
-        open(local_file_path, 'wb').write(file_data)
-
-download_file(
-    remote_file_path='https://github.com/libtcod/python-tcod/raw/master/fonts/libtcod/arial10x10.png',
-    local_file_path='fonts/font.png')
-```
+폰트 미리 다운로드 받아 fonts/font.png 로 저장해줍니다.
+<https://github.com/libtcod/python-tcod/raw/master/fonts/libtcod/arial10x10.png>
 
 tcod 초기화 진행 합니다. 커스텀 폰트를 설정하고 80x60 화면을 FPS 30 기준으로 설정했습니다.
 
