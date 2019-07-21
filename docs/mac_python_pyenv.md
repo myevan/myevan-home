@@ -36,6 +36,24 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ```bash
 $ pyenv virtualenv 3.6.2 test
+```
+
+## 가상 환경 시작
+
+```bash
 $ pyenv activate test
 (test) $
+```
+
+## 가상 환경 종료
+
+```bash
+(test) $ source deactivate
+$
+```
+
+## 가상 환경 제거
+
+```bash
+$ pyenv uninstall test
 ```
