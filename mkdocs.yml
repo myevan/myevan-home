@@ -38,6 +38,8 @@ pages:
                 - "config": git_config.md
             - "vscode plugin":
                 - "vim": vscode_plugin_vim.md
+            - "mkdocs":
+                - "toc": mkdocs_toc_hide.md
         - "github.io": 
             - "mkdocs": github_io_mkdocs.md
             - "custom domain": github_io_custom_domain.md
