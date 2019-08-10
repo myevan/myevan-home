@@ -1,3 +1,7 @@
+if [ ! -d site ]; then
+    git clone https://github.com/myevan/myevan.github.io site
+fi
+
 mkdocs build 
 pushd site
 git add .
