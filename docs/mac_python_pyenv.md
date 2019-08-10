@@ -1,25 +1,31 @@
 # 맥 파이썬 환경 따라하기
 
+## 준비
+
+pyenv 를 사용하기 위해서는 [Homebrew](/mac_package_mgr_homebrew) 와 [Xcode 커맨드라인 도구](/mac_xcode_command_line)가 필요합니다
+
 ## 설치 
 
-[Homebrew](/mac_package_mgr_homebrew) 와 [Xcode 커맨드라인 도구](/mac_xcode_command_line)가 필요합니다
+brew 를 통해 pyenv 와 pyenv-virtualenv 를 설치합니다.
 
 ```bash
 $ brew install pyenv
 $ brew install pyenv-virtualenv
 ```
 
-bash profile 에 pyenv 설정을 추가합니다.
+## 설정
+
+pyenv 설정을 ~/.bashrc 에 추가 합니다.
 
 ```bash
-$ vim ~/.bash_profile
+$ vim ~/.bashrc
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
 
-터미널에 재접속한 다음 원하는 파이썬 버전을 설치합니다.
+터미널에 재접속하면 pyenv 를 사용할 수 있습니다.
 
-## 특정 버전 설치
+## 파이썬 설치
 
 ```bash
 $ pyenv install 3.6.2 
