@@ -34,12 +34,10 @@ pages:
             - "python":
                 - "pyenv": ubuntu_python_pyenv.md
         - "xplatform":
-            - "git":
-                - "config": git_config.md
-            - "vscode plugin":
-                - "vim": vscode_plugin_vim.md
-            - "mkdocs":
-                - "toc": mkdocs_toc_hide.md
+            - "vim config": vim_config.md
+            - "git config": git_config.md
+            - "vscode plugin vim": vscode_plugin_vim.md
+            - "mkdocs toc": mkdocs_toc_hide.md
         - "github.io": 
             - "mkdocs": github_io_mkdocs.md
             - "custom domain": github_io_custom_domain.md
