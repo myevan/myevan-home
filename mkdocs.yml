@@ -89,4 +89,7 @@ pages:
                 - "processor count multiplier": ue4_processor_count_multiplier.md
                 - "faster without unity": ue4_faster_without_unity.md
                 - "min files using precompiled header": ue4_min_files_using_precompiled_header.md
+    - "translation":
+        - "UnrealEnginePython": rosetta/UnrealEnginePython/README.md
+        - "pyjs": rosetta/pyjs/about.md
 
