@@ -30,6 +30,9 @@ pages:
                     - "wrapper": mac_python_virtualenvwrapper.md
             - "tool": 
                 - "xcode": mac_xcode_command_line.md
+        - "ubuntu":
+            - "python":
+                - "pyenv": ubuntu_python_pyenv.md
         - "xplatform":
             - "vscode plugin":
                 - "vim": vscode_plugin_vim.md
