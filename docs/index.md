@@ -2,47 +2,34 @@
 
 게임 제작 기술 블로그입니다
 
-## 개발 환경
+## 운영체제(OS)
 
-### 윈도우
+### 윈도우(Windows)
 
-#### 시스템
+* [패키지 관리](/windows_package_mgr_choco)
+* [리모트 컨트롤](/windows_remote_desktop_port)
+* 파이썬 환경
 
-* [윈도우 패키지 관리](/windows_package_mgr_choco)
-* [윈도우 파이썬 가상 환경](/windows_python_virtualenv)
-* [윈도우 한글 키 Capslock 사용](/windows_hangul_key_capslock)
-* [윈도우 리모트 데스크탑 포트 변경](/windows_remote_desktop_port)
+### 맥(macOS)
 
-#### 에디터
-
-* [윈도우 VSCode 파이썬 가상 환경](/windows_vscode_python_virtualenv)
-
-#### 도구
-
-* [윈도우 파이썬 마크다운 HTML 생성](/windows_python_mkdocs)
-* [윈도우 github.io 배포](/windows_github_io_myevan)
-
-### 맥
-
-#### 시스템
-
-* [맥 패키지 관리](/mac_package_mgr_homebrew)
-* [맥 파이썬 환경](/mac_python_pyenv)
-* [맥 파이썬 가상 환경](/mac_python_virtualenvwrapper)
-* [맥 한글 키 Capslock 사용](/mac_hangul_key_capslock)
+* [패키지 관리](/mac_package_mgr_homebrew)
+* 리모트 컨트롤
+* [파이썬 환경](/mac_python_pyenv)
 * [맥 루트 활성화](/mac_root_enable)
-
-#### 도구 
-
 * [맥 Xcode 커맨드라인](/mac_xcode_command_line)
+* [맥 한글 키 Capslock 사용](/mac_hangul_key_capslock)
 
-### 크로스 플랫폼
+## 에디터(Editor)
 
-#### 에디터
+### VSCode
+* [파이썬 환경](/windows_vscode_python_virtualenv)
+* 플러그인
+    * [vim](/vscode_plugin_vim)
 
-* [비주얼 스튜디오 코드 vim 플러그인](/vscode_plugin_vim)
+## 매뉴얼(Manual)
 
-### 홈페이지
+### mkdocs
 
+* [markdown 기반 HTML 생성](/windows_python_mkdocs)
 * [github.io 배포](/github_io_mkdocs)
 * [github.io 커스텀 도메인](/github_io_custom_domain)
