@@ -28,8 +28,7 @@ pages:
         - "node.js": mac_node_js_get_started.md
         - "emscripten": emscripten_get_started.md
         - "vs code ext": vscode_ext_get_started.md
-        - "windows": 
-            - "package": windows_package_mgr_choco.md
+        - "windows": windows_package_mgr_choco.md
     - "digest":
         - "xplatform":
             - "screen": screen.md
@@ -73,12 +72,10 @@ pages:
         - "ubuntu":
             - "ip": ubuntu_setup_ip.md
     - "issue":
-        - "ue4":
-            - "vs ext": ue4_windows_vs_git_ext_gitignore.md
-        - "helix":
-            - "gitswarm mirror": helix_gitswarm_ubuntu_mirror_repository_delete.md
-    - "review":
+        - "ue4": ue4_windows_vs_git_ext_gitignore.md
+        - "helix": helix_gitswarm_ubuntu_mirror_repository_delete.md
         - "mkdocs toc": mkdocs_toc_hide.md
+    - "review":
         - "vscode ext":
             - "hello world": vscode_ext_hello_world.md
         - "ue4":
