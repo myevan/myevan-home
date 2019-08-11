@@ -51,6 +51,7 @@ pages:
         - "ubuntu":
             - "ip": ubuntu_setup_ip.md
         - "tcod": python_tcod.md
+        - "node.js": mac_node_js_get_started.md
         - "emscripten": emscripten_get_started.md
     - "digest":
         - "*nix":
