@@ -19,17 +19,10 @@ pages:
             - "tool": 
                 - "mkdocs": windows_python_mkdocs.md
         - "mac":
-            - "system":
-                - "package": mac_package_mgr_homebrew.md
-                - "hangul": mac_hangul_key_capslock.md
-                - "enable root": mac_root_enable.md
-                - "hostname": mac_terminal_hostname.md
             - "python":
                 - "pyenv": mac_python_pyenv.md
                 - "virtualenv": 
                     - "wrapper": mac_python_virtualenvwrapper.md
-            - "tool": 
-                - "xcode": mac_xcode_command_line.md
         - "ubuntu":
             - "python":
                 - "pyenv": ubuntu_python_pyenv.md
@@ -79,6 +72,12 @@ pages:
         - "vmware":
             - "static ip": vmware_fusion_8_static_ip.md
             - "port forwarding": vmware_fusion_8_port_forwarding.md
+        - "mac":
+            - "package": mac_package_mgr_homebrew.md
+            - "hangul": mac_hangul_key_capslock.md
+            - "enable root": mac_root_enable.md
+            - "hostname": mac_terminal_hostname.md
+            - "xcode": mac_xcode_command_line.md
         - "windows":
             - "robocopy": windows_sync_robocopy.md
             - "user": windows_user_management.md
