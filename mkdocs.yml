@@ -86,6 +86,8 @@ pages:
             - "gitswarm mirror": helix_gitswarm_ubuntu_mirror_repository_delete.md
     - "review":
         - "mkdocs toc": mkdocs_toc_hide.md
+        - "vscode ext":
+            - "hello world": vscode_ext_hello_world.md
         - "ue4":
             - "setup script": ue4_setup_script.md
             - "build tool":
