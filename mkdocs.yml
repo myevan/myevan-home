@@ -50,7 +50,8 @@ pages:
                 - "disk expanding": hyper_v_ubuntu_disk_expanding.md
         - "ubuntu":
             - "ip": ubuntu_setup_ip.md
-        - "tcod": "python_tcod.md"
+        - "tcod": python_tcod.md
+        - "emscripten": emscripten_get_started.md
     - "digest":
         - "*nix":
             - "screen": screen.md
