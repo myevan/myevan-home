@@ -37,10 +37,9 @@ pages:
             - "vim config": vim_config.md
             - "git config": git_config.md
             - "vscode plugin vim": vscode_plugin_vim.md
-            - "mkdocs toc": mkdocs_toc_hide.md
-        - "github.io": 
-            - "mkdocs": github_io_mkdocs.md
-            - "custom domain": github_io_custom_domain.md
+            - "github.io":
+                - "mkdocs": github_io_mkdocs.md
+                - "custom domain": github_io_custom_domain.md
 
     - "tutorial":
         - "ue4 build": ue4_windows_build.md
@@ -53,6 +52,7 @@ pages:
         - "tcod": python_tcod.md
         - "node.js": mac_node_js_get_started.md
         - "emscripten": emscripten_get_started.md
+        - "vs code ext": vscode_ext_get_started.md
     - "digest":
         - "*nix":
             - "screen": screen.md
@@ -84,7 +84,8 @@ pages:
             - "vs ext": ue4_windows_vs_git_ext_gitignore.md
         - "helix":
             - "gitswarm mirror": helix_gitswarm_ubuntu_mirror_repository_delete.md
-    - "analysis":
+    - "review":
+        - "mkdocs toc": mkdocs_toc_hide.md
         - "ue4":
             - "setup script": ue4_setup_script.md
             - "build tool":
