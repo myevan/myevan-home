@@ -79,6 +79,9 @@ pages:
         - "vmware":
             - "static ip": vmware_fusion_8_static_ip.md
             - "port forwarding": vmware_fusion_8_port_forwarding.md
+        - "windows":
+            - "robocopy": windows_sync_robocopy.md
+            - "user": windows_user_management.md
     - "issue":
         - "ue4":
             - "vs ext": ue4_windows_vs_git_ext_gitignore.md
