@@ -13,19 +13,19 @@ pages:
                 - "ubuntu":
                     - "installation": hyper_v_ubuntu_installation.md
                     - "disk expanding": hyper_v_ubuntu_disk_expanding.md
+            - "ide": vs2015_download.md
             - "python": windows_python_virtualenv.md
-            - "user": windows_user_management.md
+            - "editor": windows_vscode_python_virtualenv.md
             - "remote": windows_remote_desktop_port.md
-            - "sync": windows_sync_robocopy.md
             - "hangul": windows_hangul_key_capslock.md
-            - "vscode": windows_vscode_python_virtualenv.md
-            - "vs2015": vs2015_download.md
+            - "user": windows_user_management.md
+            - "sync": windows_sync_robocopy.md
         - "mac":
             - "pkg": mac_package_mgr_homebrew.md
             - "vm":
                 - "static ip": vmware_fusion_8_static_ip.md
                 - "port forwarding": vmware_fusion_8_port_forwarding.md
-            - "xcode": mac_xcode_command_line.md
+            - "ide": mac_xcode_command_line.md
             - "python":
                 - "pyenv": mac_python_pyenv.md
                 - "pyvenv": mac_python_virtualenvwrapper.md
@@ -33,10 +33,10 @@ pages:
             - "root": mac_root_enable.md
             - "hostname": mac_terminal_hostname.md
         - "ubuntu": 
-            - "sudo": ubuntu_sudo.md
-            - "docker": ubuntu_docker.md
             - "python": ubuntu_python_pyenv.md
+            - "docker": ubuntu_docker.md
             - "nodejs": ubuntu_node.js.md
+            - "sudo": ubuntu_sudo.md
             - "ip": ubuntu_setup_ip.md
     - "doc":
         - "mkdocs": 
