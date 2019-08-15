@@ -14,6 +14,10 @@ ctrl+a, w
 
 ctrl+a, c
 
+### 윈도우 닫기 (kill window)
+
+ctrl+a, k
+
 ### 윈도우 변경 (change window)
 
 * ctrl+a, 0 0 번 윈도우
