@@ -4,22 +4,9 @@ markdown_extensions:
     - codehilite
     - toc:
         permalink: True
-pages:
+nav:
     - "home": index.md
     - "os":
-        - "windows": 
-            - "pkg": windows_package_mgr_choco.md
-            - "vm":
-                - "ubuntu":
-                    - "installation": hyper_v_ubuntu_installation.md
-                    - "disk expanding": hyper_v_ubuntu_disk_expanding.md
-            - "ide": vs2015_download.md
-            - "python": windows_python_virtualenv.md
-            - "editor": windows_vscode_python_virtualenv.md
-            - "remote": windows_remote_desktop_port.md
-            - "hangul": windows_hangul_key_capslock.md
-            - "user": windows_user_management.md
-            - "sync": windows_sync_robocopy.md
         - "mac":
             - "pkg": mac_package_mgr_homebrew.md
             - "vm":
@@ -38,6 +25,19 @@ pages:
             - "nodejs": ubuntu_node.js.md
             - "sudo": ubuntu_sudo.md
             - "ip": ubuntu_setup_ip.md
+        - "windows": 
+            - "pkg": windows_package_mgr_choco.md
+            - "vm":
+                - "ubuntu":
+                    - "installation": hyper_v_ubuntu_installation.md
+                    - "disk expanding": hyper_v_ubuntu_disk_expanding.md
+            - "ide": vs2015_download.md
+            - "python": windows_python_virtualenv.md
+            - "editor": windows_vscode_python_virtualenv.md
+            - "remote": windows_remote_desktop_port.md
+            - "hangul": windows_hangul_key_capslock.md
+            - "user": windows_user_management.md
+            - "sync": windows_sync_robocopy.md
     - "doc":
         - "mkdocs": 
             - "windows": windows_python_mkdocs.md
