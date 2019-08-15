@@ -6,93 +6,84 @@ markdown_extensions:
         permalink: True
 pages:
     - "home": index.md
-    - "tutorial":
-        - "os":
-            - "windows": windows_package_mgr_choco.md
-        - "vm":
-            - "windows":
+    - "os":
+        - "windows": 
+            - "pkg": windows_package_mgr_choco.md
+            - "vm":
                 - "ubuntu":
                     - "installation": hyper_v_ubuntu_installation.md
                     - "disk expanding": hyper_v_ubuntu_disk_expanding.md
-        - "env":
-            - "pyenv":
-                - "mac": mac_python_pyenv.md
-                - "ubuntu": ubuntu_python_pyenv.md
-            - "virtualenv": 
-                - "mac": mac_python_virtualenvwrapper.md
-                - "windows": windows_python_virtualenv.md
-        - "ide":
-            - "vs code ext": vscode_ext_get_started.md
-        - "doc":
-            - "mkdocs": 
-                - "windows": windows_python_mkdocs.md
-            - "github.io":
-                - "mkdocs": github_io_mkdocs.md
-                - "custom domain": github_io_custom_domain.md
-        - "engine":
-            - "tcod": python_tcod.md
-            - "node.js": mac_node_js_get_started.md
-            - "emscripten": emscripten_get_started.md
-            - "ue4": ue4_windows_build.md
-    - "digest":
-        - "os":
-            - "mac":
-                - "package": mac_package_mgr_homebrew.md
-                - "hangul": mac_hangul_key_capslock.md
-                - "enable root": mac_root_enable.md
-                - "hostname": mac_terminal_hostname.md
-                - "xcode": mac_xcode_command_line.md
-            - "windows":
-                - "user": windows_user_management.md
-                - "hangul": windows_hangul_key_capslock.md
-                - "remote desktop": windows_remote_desktop_port.md
-                - "robocopy": windows_sync_robocopy.md
-            - "ubuntu":
-                - "ip": ubuntu_setup_ip.md
-        - "vm":
-            - "static ip": vmware_fusion_8_static_ip.md
-            - "port forwarding": vmware_fusion_8_port_forwarding.md
-        - "terminal":
-            - "screen": screen.md
-            - "vim config": vim_config.md
-            - "git config": git_config.md
-        - "ide":
-            - "vscode":
-                - "env": windows_vscode_python_virtualenv.md
-                - "ext": vscode_plugin_vim.md
+            - "python": windows_python_virtualenv.md
+            - "user": windows_user_management.md
+            - "remote": windows_remote_desktop_port.md
+            - "sync": windows_sync_robocopy.md
+            - "hangul": windows_hangul_key_capslock.md
+            - "vscode": windows_vscode_python_virtualenv.md
             - "vs2015": vs2015_download.md
-        - "vcs":
-            - "git":
-                - "git bash prompt": git_bash_prompt.md
-                - "git hosting": git_windows_hosting.md
-                - "git lab": 
-                    - "installation": gitlab_ubuntu_installation.md
-                - "git swarm": 
-                    - "requirements": helix_gitswarm_requirements.md
-                    - "installation": helix_gitswarm_ubuntu_installation.md
-                    - "administration": helix_gitswarm_ubuntu_administration.md
-            - "helix":
-                - "svn migration": helix_perforce_windows_svn_migration.md
-                - "perforce daemon": helix_perforce_windows_daemon.md
-                - "perforce service": helix_perforce_windows_service.md
-        - "engine":
-            - "ue4":
-                - "vs setup": ue4_windows_vs_setup.md
-                - "boost compile time": ue4_boost_compile_times.md
-                - "dedicated": ue4_dedicated_server.md
-    - "issue":
-        - "ue4": ue4_windows_vs_git_ext_gitignore.md
-        - "helix": helix_gitswarm_ubuntu_mirror_repository_delete.md
-        - "mkdocs toc": mkdocs_toc_hide.md
-    - "review":
-        - "vscode ext":
-            - "hello world": vscode_ext_hello_world.md
-        - "ue4":
-            - "setup script": ue4_setup_script.md
-            - "build tool":
-                - "processor count multiplier": ue4_processor_count_multiplier.md
-                - "faster without unity": ue4_faster_without_unity.md
-                - "min files using precompiled header": ue4_min_files_using_precompiled_header.md
+        - "mac":
+            - "pkg": mac_package_mgr_homebrew.md
+            - "vm":
+                - "static ip": vmware_fusion_8_static_ip.md
+                - "port forwarding": vmware_fusion_8_port_forwarding.md
+            - "xcode": mac_xcode_command_line.md
+            - "python":
+                - "pyenv": mac_python_pyenv.md
+                - "pyvenv": mac_python_virtualenvwrapper.md
+            - "hangul": mac_hangul_key_capslock.md
+            - "root": mac_root_enable.md
+            - "hostname": mac_terminal_hostname.md
+        - "ubuntu": 
+            - "sudo": ubuntu_sudo.md
+            - "docker": ubuntu_docker.md
+            - "python": ubuntu_python_pyenv.md
+            - "ip": ubuntu_setup_ip.md
+    - "doc":
+        - "mkdocs": 
+            - "windows": windows_python_mkdocs.md
+            - "mkdocs toc": mkdocs_toc_hide.md
+        - "github.io":
+            - "mkdocs": github_io_mkdocs.md
+            - "custom domain": github_io_custom_domain.md
+    - "vcs":
+        - "git":
+            - "bash prompt": git_bash_prompt.md
+            - "hosting": git_windows_hosting.md
+            - "gitlab": 
+                - "installation": gitlab_ubuntu_installation.md
+            - "gitswarm": 
+                - "require": helix_gitswarm_requirements.md
+                - "install": helix_gitswarm_ubuntu_installation.md
+                - "admin": helix_gitswarm_ubuntu_administration.md
+                - "issue": helix_gitswarm_ubuntu_mirror_repository_delete.md
+        - "helix":
+            - "svn migration": helix_perforce_windows_svn_migration.md
+            - "perforce daemon": helix_perforce_windows_daemon.md
+            - "perforce service": helix_perforce_windows_service.md
+    - "term":
+        - "screen": screen.md
+        - "vim config": vim_config.md
+        - "git config": git_config.md
+    - "editor":
+        - "vscode":
+            - "vim": vscode_plugin_vim.md
+            - "ext":
+                - "tutorial": vscode_ext_get_started.md
+                - "hello": vscode_ext_hello_world.md
+    - "engine":
+        - "tcod": python_tcod.md
+        - "node.js": mac_node_js_get_started.md
+        - "emscripten": emscripten_get_started.md
+        - "ue4": 
+            - "vs": ue4_windows_vs_setup.md
+            - "setup": ue4_setup_script.md
+            - "build": 
+                - "window": ue4_windows_build.md
+                - "time": ue4_boost_compile_times.md
+                - "processor": ue4_processor_count_multiplier.md
+                - "unity": ue4_faster_without_unity.md
+                - "pch": ue4_min_files_using_precompiled_header.md
+            - "network": ue4_dedicated_server.md
+            - "ue4": ue4_windows_vs_git_ext_gitignore.md
     - "rosetta":
         - "UnrealEnginePython": rosetta/UnrealEnginePython/README.md
         - "pyjs": rosetta/pyjs/about.md
