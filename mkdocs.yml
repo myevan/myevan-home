@@ -36,6 +36,7 @@ pages:
             - "sudo": ubuntu_sudo.md
             - "docker": ubuntu_docker.md
             - "python": ubuntu_python_pyenv.md
+            - "nodejs": ubuntu_node.js.md
             - "ip": ubuntu_setup_ip.md
     - "doc":
         - "mkdocs": 
