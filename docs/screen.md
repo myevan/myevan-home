@@ -68,3 +68,7 @@ $ screen -d -r
 ```bash
 $ screen -XS 번호 quit
 ```
+
+## 스크롤
+
+ctrl+a, esc
