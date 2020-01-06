@@ -1,39 +1,63 @@
 # 윈도우 파이썬 가상 환경 
 
+<https://github.com/pyenv-win/pyenv-win>
+
 ## 준비
 
-* [윈도우 패키지 관리자 설치](/windows_package_mgr_choco)
-* 파이썬 설치
+### 다운로드
+
+<https://github.com/pyenv-win/pyenv-win/archive/master.zip>
+
+### 압축풀기
 
 ```bat
-C:\> choco install python
+%USERPROFILE%\.pyenv\pyenv-win
 ```
 
-* 가상 환경 설치
+## 설정
+
+### 환경 변수 변경
+
+PATH
 
 ```bat
-C:\> pip install virtualenv
+%USERPROFILE%\.pyenv\pyenv-win\bin
+%USERPROFILE%\.pyenv\pyenv-win\shims
+%USERPROFILE%\AppData\Local\Microsoft\WindowsApps
 ```
 
-## 생성 
+### 파이썬 설치
 
 ```bat
-C:\> virtualenv C:\VirtualEnvs\example
-Using base prefix 'c:\\python36'
-New python executable in C:\VirtualEnvs\example\Scripts\python.exe
-Installing setuptools, pip, wheel...done.
+C:\> pyenv install 2.7.15
 ```
 
-## 시작
+## 로컬 버전 선택
 
 ```bat
-C:\> C:\VirtualEnvs\example\Scripts\activate
-(example) C:\>
+C:\Work> pyenv local 2.7.15
 ```
 
-## 종료
+### 가상 환경 생성
 
 ```bat
-(example) C:\> deactivate
-C:\>
+C:\Work> pyenv exec Scripts\virtualenv .venv
+New python executable in C:\Work\.venv\Scripts\python.exe
+Installing setuptools, pip, wheel...
+done.
+```
+
+## 가상 환경 시작
+
+```bat
+C:\Work> .venv\Scripts\activate
+
+(.venv) C:\Work>
+```
+
+## 가상 환경 종료
+
+```bat
+(.venv) C:\Work> deactivate
+C:\Work>
 ```

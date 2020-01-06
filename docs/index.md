@@ -9,7 +9,7 @@
 * [패키지 관리](/windows_package_mgr_choco)
 * [원격 접속](/windows_remote_desktop_port)
 * 개발 도구
-    * 파이썬 환경
+    * [파이썬 환경](/windows_python_virtualenv)
 * 가상 머신
     * [운영체제 설치](/hyper_v_ubuntu_installation)
     * [디스크 용량 확장](/hyper_v_ubuntu_disk_expanding)
