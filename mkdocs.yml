@@ -78,6 +78,7 @@ pages:
         - "engine":
             - "ue4":
                 - "vs setup": ue4_windows_vs_setup.md
+                - "build tool": ue4_build_tool.md
                 - "boost compile time": ue4_boost_compile_times.md
                 - "dedicated": ue4_dedicated_server.md
     - "issue":
