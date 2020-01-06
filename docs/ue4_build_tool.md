@@ -22,3 +22,17 @@ set Config=Debug
 ```bat
 %UE4%\Engine\Binaries\DotNET\UnrealBuildTool.exe %Program% %Platform% %Config%
 ```
+
+## 클린 (Clean)
+
+### 배치 파일 (BatchFiles)
+
+```bat
+%UE4%\Engine\Build\BatchFiles\Clean.bat %Program% %Platform% %Config%
+```
+
+### 직접 실행 (ManualCommandLine)
+
+```bat
+%UE4%\Engine\Binaries\DotNET\UnrealBuildTool.exe -Clean %Program% %Platform% %Config%
+```
