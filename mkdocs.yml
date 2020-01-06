@@ -79,6 +79,7 @@ nav:
             - "windows": 
                 - "vs": ue4_windows_vs_setup.md
                 - "build": ue4_windows_build.md
+            - "build tool": ue4_build_tool.md
             - "compile": ue4_boost_compile_times.md
             - "processor": ue4_processor_count_multiplier.md
             - "unity": ue4_faster_without_unity.md
