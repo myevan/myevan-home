@@ -49,6 +49,7 @@
 
 * [git 설정](/git_config)
 * [스크린](/screen)
+* [주피터](/jupyter)
 
 ## 에디터(Editor)
 

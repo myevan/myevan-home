@@ -61,9 +61,10 @@ nav:
             - "perforce daemon": helix_perforce_windows_daemon.md
             - "perforce service": helix_perforce_windows_service.md
     - "term":
-        - "screen": screen.md
         - "vim config": vim_config.md
         - "git config": git_config.md
+        - "screen": screen.md
+        - "jupyter": jupyter.md
     - "editor":
         - "vscode":
             - "vim": vscode_plugin_vim.md
