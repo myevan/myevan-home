@@ -76,10 +76,11 @@ nav:
         - "node.js": mac_node_js_get_started.md
         - "emscripten": emscripten_get_started.md
         - "ue4": 
-            - "setup": ue4_setup_script.md
             - "windows": 
+                - "setup": ue4_windows_setup.md
                 - "vs": ue4_windows_vs_setup.md
                 - "build": ue4_windows_build.md
+            - "setup": ue4_setup_script.md
             - "build tool": ue4_build_tool.md
             - "compile": ue4_boost_compile_times.md
             - "processor": ue4_processor_count_multiplier.md
