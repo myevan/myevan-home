@@ -27,6 +27,7 @@ nav:
             - "nodejs": ubuntu_node.js.md
             - "sudo": ubuntu_sudo.md
             - "ip": ubuntu_setup_ip.md
+            - "time": ubuntu_local_time_zone.md
         - "windows": 
             - "pkg": windows_package_mgr_choco.md
             - "vm":
