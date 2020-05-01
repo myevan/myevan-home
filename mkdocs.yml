@@ -17,6 +17,8 @@ nav:
                 - "pyenv": mac_python_pyenv.md
                 - "pyvenv": mac_python_virtualenvwrapper.md
             - "hangul": mac_hangul_key_capslock.md
+            - "vim": mac_vim.md
+            - "vs code": mac_vs_code.md
             - "root": mac_root_enable.md
             - "hostname": mac_terminal_hostname.md
         - "ubuntu": 
@@ -76,8 +78,10 @@ nav:
         - "node.js": mac_node_js_get_started.md
         - "emscripten": emscripten_get_started.md
         - "ue4": 
-            - "windows": 
-                - "setup": ue4_windows_setup.md
+            - "windows":
+                - "setup":
+                    - "engine": ue4_windows_setup_engine.md
+                    - "project": ue4_windows_setup_project.md
                 - "vs": ue4_windows_vs_setup.md
                 - "build": ue4_windows_build.md
             - "setup": ue4_setup_script.md

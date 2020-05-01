@@ -56,10 +56,8 @@ C:\EpicGames\UE_4.git>GenerateProjectFiles.bat
 
 ### 에디터 빌드 (BuildEditor)
 
-`_BuildEditor.bat`
-
 ```bat
-call %~dp0Engine\Build\BatchFiles\MSBuild.bat /t:Build /p:Configuration="Development Editor" /p:Platform=Win64 /m
+C:\EpicGames\UE_4.git>Engine\Build\BatchFiles\MSBuild.bat UE4.sln /m /p:Platform=Win64 /t:Build /p:Configuration="Development Editor"
 ```
 
 ## 실행 (Run)
@@ -77,23 +75,19 @@ C:\EpicGames\UE_4.git>setx UE-SharedDataCachePath "\\SHARE\UE4\DDC"
 
 DDC 환경 변수가 존재할 때만 실행합니다.
 
-`_RunEditor.bat`
-
 ```bat
-@echo off
-if "%UE-SharedDataCachePath%" == "" (
-	echo Environment variable not found: UE-SharedDataCachePath
-	pause
-) else (
-	start %~dp0Engine\Binaries\Win64\UE4Editor.exe %*
-)
+C:\EpicGames\UE_4.git>start Engine\Binaries\Win64\UE4Editor.exe
 ```
 
 ## 인스톨드 빌드 (InstalledBuild)
 
 ### 가짜 인스톨드 빌드 (FakeInstalledBuild)
 
-#### 바이너리 빌드 설정 (MakeBinaryBuild)
+인스톨드 빌드 테스트용입니다. 
+바이너리 빌드 상태일 때는 엔진 수정이 되지 않습니다.
+엔진 수정이 필요하면 소스 빌드로 변경해주어야 합니다.
+
+#### 바이너리 빌드 변경 (MakeBinaryBuild)
 
 * GeneratedProjectFiles.bat 삭제
 * Build\SourceDistribution.txt 삭제
@@ -116,7 +110,7 @@ copy NUL %~dp0Engine\Build\InstalledBuild.txt
 pause
 ```
 
-#### 소스 빌드 설정 (MakeSourceBuild)
+#### 소스 빌드 변경 (MakeSourceBuild)
 
 `_MakeSourceBuild.bat`
 
@@ -128,7 +122,6 @@ if not exist %~dp0Engine\Build\InstalledBuild.txt (
 )
 echo Change to the source build
 git restore %~dp0GenerateProjectFiles.bat %~dp0Engine\Build\SourceDistribution.txt
-
 if exist %~dp0Engine\Build\InstalledBuild.txt del %~dp0Engine\Build\InstalledBuild.txt
 
 :finish
