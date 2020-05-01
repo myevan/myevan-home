@@ -1,4 +1,6 @@
-# 맥 파이썬 가상 환경 랩퍼
+# 맥 파이썬 가상 환경 랩퍼 (Python Virtualenv Wrapper on Mac)
+
+**DEPRECATED: [pyenv](/mac_python_pyenv)을 추천합니다.**
 
 <http://blog.naver.com/ez_?Redirect=Log&logNo=140138625021&from=postView>
 
