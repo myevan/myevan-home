@@ -38,38 +38,51 @@ eval "$(pyenv virtualenv-init -)"
 ## 파이썬 설치
 
 ```bash
-$ pyenv install 3.6.2 
+$ pyenv install 3.6.8
 $ pyenv versions
-$ pyenv shell 3.6.2
-$ python
-Python 3.6.2 (default, Aug 26 2017, 22:26:02) 
-[GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>>
+$ pyenv shell 3.6.8
 ```
 
-## 가상 환경 생성
+## 로컬 버전 선택
 
 ```bash
-$ pyenv virtualenv 3.6.2 test
+$ pyenv local 3.6.8
 ```
 
-## 가상 환경 시작
+## 가상 환경 생성 
 
 ```bash
-$ pyenv activate test
-(test) $
+$ python -m venv venv
+```
+
+## 가상 환경 실행
+
+```bash
+$ venv/bin/python
+```
+
+## 가상 환경 패키지 
+
+```bash
+$ venv/bin/pip
+```
+
+## 가상 환경 입장
+
+```bash
+$ pyenv activate venv
+(venv) $
 ```
 
 ## 가상 환경 종료
 
 ```bash
-(test) $ source deactivate
+(venv) $ source deactivate
 $
 ```
 
 ## 가상 환경 제거
 
 ```bash
-$ pyenv uninstall test
+$ pyenv uninstall venv
 ```
