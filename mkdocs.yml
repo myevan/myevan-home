@@ -61,6 +61,10 @@ nav:
                 - "admin": helix_gitswarm_ubuntu_administration.md
                 - "issue": helix_gitswarm_ubuntu_mirror_repository_delete.md
         - "helix":
+            - "linux":
+                - "daemon": helix_linux_perforce_daemon.md
+                - "backup": helix_linux_perforce_backup.md
+                - "restore": helix_linux_perforce_restore.md
             - "windows":
                 - "svn migration": helix_windows_perforce_svn_migration.md
                 - "perforce daemon": helix_windows_perforce_daemon.md
