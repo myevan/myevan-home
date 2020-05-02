@@ -9,6 +9,7 @@ nav:
     - "os":
         - "mac":
             - "pkg": mac_package_mgr_homebrew.md
+            - "zsh": mac_zsh_setup.md
             - "vm":
                 - "static ip": vmware_fusion_8_static_ip.md
                 - "port forwarding": vmware_fusion_8_port_forwarding.md
