@@ -61,9 +61,10 @@ nav:
                 - "admin": helix_gitswarm_ubuntu_administration.md
                 - "issue": helix_gitswarm_ubuntu_mirror_repository_delete.md
         - "helix":
-            - "svn migration": helix_perforce_windows_svn_migration.md
-            - "perforce daemon": helix_perforce_windows_daemon.md
-            - "perforce service": helix_perforce_windows_service.md
+            - "windows":
+                - "svn migration": helix_windows_perforce_svn_migration.md
+                - "perforce daemon": helix_windows_perforce_daemon.md
+                - "perforce service": helix_windows_perforce_service.md
     - "term":
         - "vim config": vim_config.md
         - "git config": git_config.md
