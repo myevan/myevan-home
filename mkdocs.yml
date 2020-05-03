@@ -35,6 +35,7 @@ nav:
                 - "ubuntu":
                     - "installation": hyper_v_ubuntu_installation.md
                     - "disk expanding": hyper_v_ubuntu_disk_expanding.md
+                - "freenas": hyper_v_freenas_setup.md
             - "ide": vs2015_download.md
             - "python": windows_python_virtualenv.md
             - "editor": windows_vscode_python_virtualenv.md
