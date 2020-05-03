@@ -7,7 +7,7 @@
 데이터 동기화
 
 ```bash
-$ rsync -avz -e 'ssh -p 22' id@domain:helix/data ~/helix/data
+$ rsync -avz -e 'ssh -p 22' id@domain:helix/data ~/helix/
 ```
 
 기존 디비 제거
