@@ -1,4 +1,4 @@
-# 비주얼 스튜디오 코드 플러그인: vim 요약
+# 비주얼 스튜디오 코드 확장: vim 요약
 
 <https://github.com/VSCodeVim/Vim>
 
