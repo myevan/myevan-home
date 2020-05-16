@@ -78,7 +78,8 @@ nav:
     - "editor":
         - "vscode":
             - "vim": vscode_plugin_vim.md
-            - "ext":
+            - "remote-ssh": vscode_ext_remote_ssh.md
+            - "dev":
                 - "tutorial": vscode_ext_get_started.md
                 - "hello": vscode_ext_hello_world.md
     - "engine":
