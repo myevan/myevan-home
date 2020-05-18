@@ -5,7 +5,7 @@
 ### 클론 (Clone)
 
 ```bat
-C:\EpicGames>git clone https://github.com/EpicGames/UnrealEngine.git UE_4.git
+C:\EpicGames>git clone https://github.com/EpicGames/UnrealEngine.git UE_4_Dev
 ```
 
 ### 브랜치 (Branch)
@@ -16,28 +16,26 @@ C:\EpicGames>git checkout -b x.y.z-custom
 
 ### 리모트 (Remote)
 
+<https://github.com/myevan/UnrealEngine>
+
 ```bat
 C:\EpicGames>git remote add custom https://github.com/GROUP/UnrealEngine.git
 ```
 
 ### 디펜던시 업데이트(Update GitDependencies)
 
-* 환경 변수: `UE4-Proxy`
-* 프락시 형식: `xxx.xxx.xxx.xxx:port`
+<https://github.com/myevan/UnrealEngine/blob/4.24.3-custom/_GitDependencies.bat>
 
-`_GitDependencies.bat`
+#### HTML5 제외
 
 ```bat
-@echo off
-set PROXY=%UE4-Proxy%
-set EXCLUDE=HTML5
-if "%PROXY%" == "" (
-    %~dp0Engine\Binaries\DotNET\GitDependencies.exe -exclude=%EXCLUDE%
-) else (
-    echo Proxy: %PROXY%
-    %~dp0Engine\Binaries\DotNET\GitDependencies.exe -exclude=%EXCLUDE% -proxy=%PROXY%
-)
-pause
+C:\EpicGames\UE_4_Dev> Engine\Binaries\DotNET\GitDependencies.exe -exclude=HTML5
+```
+
+#### 프락시 설정
+
+```bat
+C:\EpicGames\UE_4_Dev> Engine\Binaries\DotNET\GitDependencies.exe -proxy=xxx.xxx.xxx.xxx:0000
 ```
 
 ## 빌드 (Build)
@@ -45,38 +43,40 @@ pause
 ### 엔진 셋업 (SetupEngine)
 
 ```bat
-C:\EpicGames\UE_4.git>Setup.bat
+C:\EpicGames\UE_4_Dev> Setup.bat
 ```
 
 ### 엔진 프로젝트 생성 (MakeEngineProject)
 
 ```bat
-C:\EpicGames\UE_4.git>GenerateProjectFiles.bat
+C:\EpicGames\UE_4_Dev> GenerateProjectFiles.bat
 ```
 
 ### 에디터 빌드 (BuildEditor)
 
 ```bat
-C:\EpicGames\UE_4.git>Engine\Build\BatchFiles\MSBuild.bat UE4.sln /m /p:Platform=Win64 /t:Build /p:Configuration="Development Editor"
+C:\EpicGames\UE_4_Dev> Engine\Build\BatchFiles\MSBuild.bat UE4.sln /m /p:Platform=Win64 /t:Build /p:Configuration="Development Editor"
 ```
 
 ## 실행 (Run)
 
-### 파생 데이터 캐시 (DerivedDataCache)
+### 파생 데이터 캐시 (DDC: DerivedDataCache)
+
+협업시 중복된 셰이더 컴파일을 줄이기 위해 필요합니다.
 
 * 환경 변수: `UE-SharedDataCachePath`
 * 공유 폴더: `\\SHARE\UE4\DDC`
 
 ```bat
-C:\EpicGames\UE_4.git>setx UE-SharedDataCachePath "\\SHARE\UE4\DDC"
+C:\EpicGames\UE_4_Dev> setx UE-SharedDataCachePath "\\SHARE\UE4\DDC"
 ```
 
 ### 에디터 실행 (RunEditor)
 
-DDC 환경 변수가 존재할 때만 실행합니다.
+<https://github.com/myevan/UnrealEngine/blob/4.24.3-custom/_BuidEditor_Development.bat>
 
 ```bat
-C:\EpicGames\UE_4.git>start Engine\Binaries\Win64\UE4Editor.exe
+C:\EpicGames\UE_4_Dev> Engine\Binaries\Win64\UE4Editor.exe
 ```
 
 ## 인스톨드 빌드 (InstalledBuild)
@@ -85,45 +85,14 @@ C:\EpicGames\UE_4.git>start Engine\Binaries\Win64\UE4Editor.exe
 
 인스톨드 빌드 테스트용입니다. 
 바이너리 빌드 상태일 때는 엔진 수정이 되지 않습니다.
-엔진 수정이 필요하면 소스 빌드로 변경해주어야 합니다.
 
-#### 바이너리 빌드 변경 (MakeBinaryBuild)
+<https://github.com/myevan/UnrealEngine/blob/4.24.3-custom/_MakeEngine_BinaryBuild.bat>
 
 * GeneratedProjectFiles.bat 삭제
 * Build\SourceDistribution.txt 삭제
 * Build\InstalledBuild.txt 빈 파일 생성
 
-`_MakeBinaryBuild.bat`
 
-```bat
-@echo off
-if exist %~dp0Engine\Build\InstalledBuild.txt (
-    echo Already changed the binary build
-    goto finish
-)
-echo Change to the binary build
-if exist %~dp0GenerateProjectFiles.bat del %~dp0GenerateProjectFiles.bat
-if exist %~dp0Engine\Build\SourceDistribution.txt del %~dp0Engine\Build\SourceDistribution.txt
-copy NUL %~dp0Engine\Build\InstalledBuild.txt
+엔진 수정이 필요하면 소스 빌드로 변경해주어야 합니다.
 
-:finish
-pause
-```
-
-#### 소스 빌드 변경 (MakeSourceBuild)
-
-`_MakeSourceBuild.bat`
-
-```bat
-@echo off
-if not exist %~dp0Engine\Build\InstalledBuild.txt (
-    echo Already changed the source build
-    goto finish
-)
-echo Change to the source build
-git restore %~dp0GenerateProjectFiles.bat %~dp0Engine\Build\SourceDistribution.txt
-if exist %~dp0Engine\Build\InstalledBuild.txt del %~dp0Engine\Build\InstalledBuild.txt
-
-:finish
-pause
-```
+<https://github.com/myevan/UnrealEngine/blob/4.24.3-custom/_MakeEngine_SourceBuild.bat>
