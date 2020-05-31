@@ -32,7 +32,6 @@ nav:
             - "ip": ubuntu_setup_ip.md
             - "time": ubuntu_local_time_zone.md
         - "windows": 
-            - "pkg": windows_package_mgr_choco.md
             - "vm":
                 - "ubuntu":
                     - "installation": hyper_v_ubuntu_installation.md
@@ -43,8 +42,11 @@ nav:
             - "editor": windows_vscode_python_virtualenv.md
             - "remote": windows_remote_desktop_port.md
             - "hangul": windows_hangul_key_capslock.md
-            - "user": windows_user_management.md
+            - "user": 
+                - "management": windows_user_management.md
+                - "remote desktop": windows_remote_desktop_user_deny.md
             - "sync": windows_sync_robocopy.md
+            - "pkg": windows_package_mgr_choco.md            
     - "doc":
         - "mkdocs": 
             - "windows": windows_python_mkdocs.md
