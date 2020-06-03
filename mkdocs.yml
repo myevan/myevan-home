@@ -104,6 +104,7 @@ nav:
                 - "processor": ue4_processor_count_multiplier.md
                 - "unity": ue4_faster_without_unity.md
                 - "pch": ue4_min_files_using_precompiled_header.md
+                - "dbg help": ue4_build_crash_debug_helper.md
             - "plugin":
                 - "not_found": ue4_plugin_module_not_found.md
                 - "skip": ue4_plugin_skip.md
