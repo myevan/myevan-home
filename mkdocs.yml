@@ -98,11 +98,15 @@ nav:
                 - "vs": ue4_windows_vs_setup.md
                 - "build": ue4_windows_build.md
             - "setup": ue4_setup_script.md
-            - "build tool": ue4_build_tool.md
-            - "compile": ue4_boost_compile_times.md
-            - "processor": ue4_processor_count_multiplier.md
-            - "unity": ue4_faster_without_unity.md
-            - "pch": ue4_min_files_using_precompiled_header.md
+            - "build":
+                - "build tool": ue4_build_tool.md
+                - "compile": ue4_boost_compile_times.md
+                - "processor": ue4_processor_count_multiplier.md
+                - "unity": ue4_faster_without_unity.md
+                - "pch": ue4_min_files_using_precompiled_header.md
+            - "plugin":
+                - "not_found": ue4_plugin_module_not_found.md
+                - "skip": ue4_plugin_skip.md
             - "network": ue4_dedicated_server.md
             - "gitignore": ue4_windows_vs_git_ext_gitignore.md
     - "rosetta":
