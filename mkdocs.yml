@@ -97,6 +97,8 @@ nav:
                     - "project": ue4_windows_setup_project.md
                 - "vs": ue4_windows_vs_setup.md
                 - "build": ue4_windows_build.md
+                - "debug":
+                    - "uat": ue4_windows_debug_uat.md
             - "setup": ue4_setup_script.md
             - "build":
                 - "build tool": ue4_build_tool.md
