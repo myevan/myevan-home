@@ -95,7 +95,7 @@ nav:
                 - "setup":
                     - "engine": ue4_windows_setup_engine.md
                     - "project": ue4_windows_setup_project.md
-                - "vs": ue4_windows_vs_setup.md
+                    - "visual studio": ue4_windows_setup_visual_studio.md
                 - "build": ue4_windows_build.md
                 - "debug":
                     - "uat": ue4_windows_debug_uat.md
