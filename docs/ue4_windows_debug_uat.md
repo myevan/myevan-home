@@ -12,8 +12,8 @@ Debug > Configuration: `Debug`
 
 Debug > Start options > Command line arguments:
 
-```
-BuildGraph -Script=Engine\Build\InstalledBuild.xml -Target="Make Installed Build Win64" -set:WithLumin=false -set:WithHoloLens=false -set:WithDDC=false -set:HostPlatformDDCOnly -set:WithFullDebugInfo=true -set:AndroidArchitectures=arm64
+```bat
+BuildGraph -Script=Engine\Build\InstalledEngineBuild.xml -Target="Make Installed Build Win64" -set:HostPlatformOnly=true -set:WithWin32=false -set:WithLumin=false -set:WithHoloLens=false -set:WithDDC=false -set:WithFullDebugInfo=true 
 ```
 
 Working directory:
