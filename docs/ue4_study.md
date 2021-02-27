@@ -2,6 +2,7 @@
 
 ## 설정
 
+* [DDC 설정](./ue4_editor_config_ddc.md)
 * [에디터 언어 변경](./ue4_editor_language.md)
 
 ## 확장
