@@ -36,6 +36,7 @@
     * [IP 고정](/vmware_fusion_8_static_ip)
     * [포트 포워딩](/vmware_fusion_8_port_forwarding)
 * 버전 관리 시스템
+* [맥 13 벤츄라 SSH 작동 권한](/mac_13_ssh_operation_not_permitted)
 
 ### 리눅스(Linux)
 
