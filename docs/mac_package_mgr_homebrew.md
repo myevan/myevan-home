@@ -1,11 +1,19 @@
-# 맥 패키지 관리자: homebrew
+# 맥 패키지 관리자 (mac package manager: homebrew)
+
+## 설치 (Installation)
 
 <https://brew.sh/>
 
-## 설치 Installation
+```bash
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+## 환경 (Environment)
 
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ vim ~/.zprofile
+# Set PATH, MANPATH, etc., for Homebrew.
+eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 ## 이슈 Issue
