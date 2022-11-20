@@ -34,42 +34,43 @@ PATH
 %USERPROFILE%\AppData\Local\Microsoft\WindowsApps
 ```
 
-### 런처 설정
+### 앱 설치 관리자 비활성화
 
 Windows 11 | Windows 10 (1905 이상)
 
-시작(Start) > Manage App Execution Aliases > App Installer: Python 비활성화
+시작(Start) > 앱 실행 별칭(Manage App Execution Aliases)
 
+* 앱 설치 관리자(App Installer): python 비활성화
+* 앱 설치 관리자(App Installer): python3 비활성화
 
 ### 파이썬 설치
 
 ```bat
-C:\> pyenv install 3.6.8
+C:\> pyenv install 3.11.0
 ```
 
 ## 로컬 버전 선택
 
 ```bat
-C:\Work> pyenv local 3.6.8
+C:\Work> pyenv local 3.11.0
 ```
 
 ### 가상 환경 생성
 
 ```bat
-C:\Work> python -m venv venv
+if not exist %~dp0.venv (
+    python -m venv %~dp0.venv
+)
 ```
 
-## 가상 환경 시작
+### 가상 환경 파이썬
 
 ```bat
-C:\Work> venv\Scripts\activate
-
-(venv) C:\Work>
+%~dp0venv.bat python %*
 ```
 
-## 가상 환경 종료
+### 가상 환경 패키지 매니저
 
 ```bat
-(venv) C:\Work> deactivate
-C:\Work>
+%~dp0venv.bat python -m pip %*
 ```
