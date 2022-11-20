@@ -1,4 +1,3 @@
-.python-version
-/venv
+/.venv
 /site
 /docs/rosetta
