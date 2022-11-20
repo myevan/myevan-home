@@ -41,7 +41,9 @@ nav:
             - "python": windows_python_virtualenv.md
             - "editor": windows_vscode_python_virtualenv.md
             - "remote": windows_remote_desktop_port.md
-            - "hangul": windows_hangul_key_capslock.md
+            - "hangul":
+                - "capslock": windows_hangul_key_capslock.md
+                - "normalize": windows_hangul_mac_unicode_normalize.md
             - "user": 
                 - "management": windows_user_management.md
                 - "remote desktop": windows_remote_desktop_user_deny.md
