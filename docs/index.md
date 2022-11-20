@@ -48,6 +48,7 @@
     * [파이썬 환경](/ubuntu_python_pyenv)
 * 버전 관리 시스템
     * [gitlab](/gitlab_ubuntu_installation)
+* [디스크 추가](/ubuntu_disk_add)
 
 ## 터미널(Terminal)
 
