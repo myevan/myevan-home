@@ -28,7 +28,8 @@ pyenv 설정을 추가 합니다.
 
 ```bash
 $ vim ~/.bashrc
-export PATH="/home/myevan/.pyenv/bin:$PATH"
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
@@ -38,51 +39,31 @@ eval "$(pyenv virtualenv-init -)"
 ## 파이썬 설치
 
 ```bash
-$ pyenv install 3.6.8
+$ pyenv install 3.11.0
 $ pyenv versions
-$ pyenv shell 3.6.8
+$ pyenv shell 3.11.0
 ```
 
 ## 로컬 버전 선택
 
 ```bash
-$ pyenv local 3.6.8
+$ pyenv local 3.11.0
 ```
 
 ## 가상 환경 생성 
 
 ```bash
-$ python -m venv venv
+$ python -m venv .venv
 ```
 
 ## 가상 환경 실행
 
 ```bash
-$ venv/bin/python
+$ .venv/bin/python
 ```
 
-## 가상 환경 패키지 
+## 가상 환경 패키지 매니저
 
 ```bash
-$ venv/bin/pip
-```
-
-## 가상 환경 입장
-
-```bash
-$ pyenv activate venv
-(venv) $
-```
-
-## 가상 환경 종료
-
-```bash
-(venv) $ source deactivate
-$
-```
-
-## 가상 환경 제거
-
-```bash
-$ pyenv uninstall venv
+$ .venv/bin/pip
 ```
