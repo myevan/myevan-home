@@ -1,7 +1,5 @@
-if [ ! -f venv/bin/$1 ]; then
-    if [ ! -d env ]; then
-        [ -f .python-version ] || pyenv local 3.6.9
-        python -m venv venv
-    fi
+THIS_DIR=$(dirname $0)
+if [ ! -d .venv ]; then
+    python -m venv $THIS_DIR/.venv
 fi
-venv/bin/$*
+$THIS_DIR/.venv/bin/$*
