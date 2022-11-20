@@ -1,10 +1,12 @@
+THIS_DIR=$(dirname $0)
+
 if [ ! -d site ]; then
-    git clone https://github.com/myevan/myevan.github.io site
+    git clone git@github.com:myevan/myevan.github.io site
 fi
 
-./mkdocs.sh build 
+$THIS_DIR/vmkdocs.sh build
 
-pushd site
+pushd $THIS_DIR/site
 git add .
 TIME=`date +"%y-%m-%d %H:%M:%S"`
 HOST="$USER@`hostname`"
