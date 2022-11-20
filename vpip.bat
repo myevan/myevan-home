@@ -1,0 +1,1 @@
+@%~dp0venv.bat python -m pip %*
