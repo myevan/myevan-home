@@ -18,7 +18,7 @@
         * [데몬](/helix_perforce_windows_daemon)
         * [서비스](/helix_perforce_windows_service)
 * 윈도우11
-    * [컨테스트 메뉴 클래식](/windows_11_context_menu_classic)
+    * [탐색기 컨텍스트 메뉴 클래식](/windows_11_explorer_context_menu_classic)
     * [WSL2 우분투 22](/windows_11_wsl2_ubuntu_22)
 
 ### 맥(macOS)
