@@ -50,6 +50,12 @@
     * [gitlab](/gitlab_ubuntu_installation)
 * [디스크 추가](/ubuntu_disk_add)
 
+### 시놀로지(Synology)
+
+* [중복 제거](/synology_ubuntu_dedup)
+* [헬릭스 서버 설치](/synology_helix_server)
+* [헬릭스 서버 인증 LDAP](/synology_helix_server_auth_ldap)
+
 ## 터미널(Terminal)
 
 * [git 설정](/git_config)
