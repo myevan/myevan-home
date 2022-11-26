@@ -1,4 +1,4 @@
-# 시놀로지 중복 제거 (Synology Deduplication): DupeRemove
+# 시놀로지 중복 정리 (Synology Deduplication): DupeRemove
 
 <https://github.com/markfasheh/duperemove>
 
@@ -10,6 +10,7 @@ Docker ubuntu 이미지 다운로드 > 컨테이너 생성 > 터미널 접속
 # apt-get update
 # apt-get upgrade
 # apt-get install duperemove
+# apt-get install sqlite3
 ```
 
 ## 사용 (Usage)
@@ -31,10 +32,16 @@ Docker ubuntu 이미지 다운로드 > 컨테이너 생성 > 터미널 접속
 * --io-threads=숫자: I/O 스레드 숫자 (디폴트 호스트 CPU 숫자)
 * --cpu-threads=숫자: CPU 바운드 작업용 스레드 숫자 (디폴트 호스트 CPU 숫자)
 
-### 해쉬 파일 구축 
+### 중복 확인
 
 ```bash
-$ sudo docker exec ubuntu-dedup duperemove --hashfile=/TARGET_DIR/__dedup.hash -r /TARGET_DIR
+$ sudo docker exec ubuntu-dedup duperemove --hashfile=/TARGET_DIR/__dedup.db -hr /TARGET_DIR
+```
+
+### 중복 정리
+
+```bash
+$ sudo docker exec ubuntu-dedup duperemove --hashfile=/TARGET_DIR/__dedup.db -hdr /TARGET_DIR
 ```
 
 ## 참고 (Reference)
