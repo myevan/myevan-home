@@ -30,6 +30,49 @@ SSL
 * 파일/폴더: /docker/helix-server/p4depot
 * 마운트 경로: /data/p4depot
 
+## 설정
+
+### 타입 맵 (TypeMap)
+
+* binary+Fl 이미 압축 됨
+* binary+l 머지 어려움
+* binary+w 빌드 결과물
+
+```
+> p4 typemap
+	binary+Fl //....bz2
+	binary+Fl //....zip
+	binary+Fl //....rar
+	binary+Fl //....gz
+	binary+Fl //....gif
+	binary+Fl //....tif
+	binary+Fl //....png
+	binary+Fl //....jpg
+	binary+Fl //....psd
+	binary+Fl //....aac
+	binary+Fl //....avi
+	binary+Fl //....wmv
+	binary+Fl //....wma
+	binary+Fl //....m4a
+	binary+Fl //....mov
+	binary+Fl //....mp4
+	binary+Fl //....mp3
+	binary+Fl //....ogg
+	binary+Fl //....jar
+	binary+l //....doc*
+	binary+l //....xls*
+	binary+l //....ppt*
+	binary+w //....dylib
+	binary+w //....lib
+	binary+w //....dll
+	binary+w //....exe
+	binary+w //....so
+	binary+w //....o
+	binary+w //....obj
+	binary+w //....pdb
+	binary+w //....dSYM
+```
+
 
 ## 참고 (Reference)
 
