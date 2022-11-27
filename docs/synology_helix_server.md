@@ -73,6 +73,16 @@ SSL
 	binary+w //....dSYM
 ```
 
+### 패러럴
+
+최대 스레드 숫자만큼 설정
+
+```
+p4 configure set net.parallel.max=4
+p4 configure set net.parallel.threads=4
+p4 configure set net.parallel.submit.threads=4
+```
+
 ## 백업 체크포인트
 
 Docker 컨테이너 터미널
