@@ -73,6 +73,13 @@ SSL
 	binary+w //....dSYM
 ```
 
+## 백업 체크포인트
+
+Docker 컨테이너 터미널
+
+```bash
+$ runuser -l perforce -c "cd /data/p4depot; p4d -r root -jc"
+```
 
 ## 참고 (Reference)
 
