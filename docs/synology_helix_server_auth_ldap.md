@@ -19,7 +19,7 @@
 ```bat
 > p4 ldap ldap.HOST.TLD
 Name: ldap.HOST.TLD
-Host: ldap.HOST.TLD
+Host: 192.168.LDAP.IP
 Port: 389
 Encryption: tls
 BindMethod: simple
