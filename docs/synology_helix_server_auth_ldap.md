@@ -19,11 +19,11 @@
 ```bat
 > p4 ldap ldap.HOST.TLD
 Name: ldap.HOST.TLD
-Host: p4d.HOST.TLD
+Host: ldap.HOST.TLD
 Port: 389
 Encryption: tls
 BindMethod: simple
-SimplePattern: uid=%USER%,cn=users,dc=ldap,dc=HOST,dc=TLD
+SimplePattern: uid=%user%,cn=users,dc=ldap,dc=HOST,dc=TLD
 SearchScope: subtree
 GroupSearchScope: subtree
 ```
@@ -52,14 +52,6 @@ AuthMethod: perforce
 
 ## 관리 설정
 
-### 퍼미션 설정
-
-모든 유저는 디폴트 디포 리스트 확인만 가능
-
-```bat
-> p4 protect
-list user * * //depot/...
-```
 ### 유저 자동 생성 방지
 
 <https://portal.perforce.com/s/article/2544>
@@ -70,6 +62,14 @@ list user * * //depot/...
 > p4 configure set dm.user.noautocreate=2
 ```
 
+### 퍼미션 설정
+
+모든 유저는 디폴트 디포 리스트 확인만 가능
+
+```bat
+> p4 protect
+list user * * //depot/...
+```
 ### 유저 수동 생성
 
 ```bat
@@ -81,4 +81,10 @@ Email: NAME@HOST
 FullName: NAME
 
 AuthMethod: ldap
+```
+
+### 퍼포스 서버 재시작
+
+```bat
+> p4 admin restart
 ```
