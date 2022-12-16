@@ -1,2 +1,2 @@
 THIS_DIR=$(dirname $0)
-$THIS_DIR/vpython.sh pip $*
+$THIS_DIR/venv.sh python $*
