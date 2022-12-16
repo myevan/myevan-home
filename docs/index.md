@@ -52,9 +52,10 @@
 
 ### 시놀로지(Synology)
 
-* [중복 제거](/synology_ubuntu_dedup)
+* [우분투 중복 제거](/synology_ubuntu_dedup)
 * [헬릭스 서버 설치](/synology_helix_server)
 * [헬릭스 서버 인증 LDAP](/synology_helix_server_auth_ldap)
+* [코드 서버 웹 소켓 에러: 리버스 프락시](/synology_code_server_reverse_proxy_https_web_socket_error_1006)
 
 ## 터미널(Terminal)
 

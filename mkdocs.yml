@@ -32,10 +32,13 @@ nav:
             - "ip": ubuntu_setup_ip.md
             - "time": ubuntu_local_time_zone.md
         - "synology":
-            - "dedup": synology_ubuntu_dedup.md
+            - "ubuntu":
+                - "dedup": synology_ubuntu_dedup.md
             - "helix": 
                 - "install": synology_helix_server.md
                 - "auth": synology_helix_server_auth_ldap.md
+            - "synology":
+                - "code-server": synology_code_server_reverse_proxy_https_web_socket_error_1006.md
         - "windows": 
             - "vm":
                 - "ubuntu":
