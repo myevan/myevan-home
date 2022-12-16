@@ -37,8 +37,8 @@ nav:
             - "helix": 
                 - "install": synology_helix_server.md
                 - "auth": synology_helix_server_auth_ldap.md
-            - "synology":
-                - "code-server": synology_code_server_reverse_proxy_https_web_socket_error_1006.md
+            - "code-server": 
+                - "error": synology_code_server_reverse_proxy_https_web_socket_error_1006.md
         - "windows": 
             - "vm":
                 - "ubuntu":
