@@ -98,3 +98,9 @@
 * [설정](/ue4_windows_vs_setup)
 * [빌드](/ue4_windows_build)
 * [네트워크](/ue4_dedicated_server)
+
+## 서버(Server)
+
+### C# 
+
+* [엔티티 프레임워크 sqlite :memory:](/ef_sqlite_in_memory)
